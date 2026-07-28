@@ -185,3 +185,18 @@ This project addresses these challenges by building a centralized analytics plat
 - Monitor bank-level transaction performance and financial risk indicators.
 - Support data-driven decision-making through executive dashboards and interactive reporting.
 - Consolidate financial data into a centralized analytical platform for business intelligence and operational reporting.
+
+# 🎯 Project Objectives
+
+The primary objective of the **Banking Fraud & Financial Risk Intelligence Platform** is to build a scalable **Financial Data Engineering and Business Intelligence** solution that transforms raw banking transaction data into meaningful analytical insights through a structured ETL pipeline, relational database management, SQL analytics and interactive Power BI reporting.
+
+The project is designed to achieve the following objectives:
+
+- Develop an end-to-end ETL pipeline to audit, clean, validate and transform raw banking transaction data.
+- Engineer transaction, account, customer and network-level features to support fraud and financial risk analysis.
+- Design and manage a relational MySQL database for efficient storage, querying and analytical processing.
+- Perform SQL-based analysis to evaluate transaction behavior, customer activity, banking performance, payment trends and transaction networks.
+- Build interactive Power BI dashboards that enable comprehensive monitoring of Anti-Money Laundering (AML) activities and financial risk indicators.
+- Support investigation of suspicious transactions through interactive drill-through reporting and detailed analytical views.
+- Deliver executive-level dashboards that summarize key business metrics, operational performance and financial risk insights.
+- Demonstrate practical application of modern data engineering, feature engineering, relational database design, SQL analytics and business intelligence within a large-scale financial analytics workflow.
