@@ -200,3 +200,34 @@ The project is designed to achieve the following objectives:
 - Support investigation of suspicious transactions through interactive drill-through reporting and detailed analytical views.
 - Deliver executive-level dashboards that summarize key business metrics, operational performance and financial risk insights.
 - Demonstrate practical application of modern data engineering, feature engineering, relational database design, SQL analytics and business intelligence within a large-scale financial analytics workflow.
+
+# 🛠️ Technology Stack
+
+The project leverages a modern data engineering and business intelligence stack to build an end-to-end analytics platform. Each technology was selected to support a specific stage of the data pipeline, from ETL and database management to business intelligence and interactive reporting.
+
+| Technology | Purpose |
+|------------|---------|
+| **Python** | Developed the end-to-end ETL pipeline, including data auditing, cleaning, validation, transformation and feature engineering. |
+| **Pandas** | Processed, transformed, aggregated and analyzed large-scale tabular datasets. |
+| **NumPy** | Performed numerical operations and supported efficient data manipulation during feature engineering. |
+| **MySQL** | Stored processed datasets in a relational database for structured data management and analytical querying. |
+| **SQL** | Performed exploratory analysis, business queries, transaction analytics, customer analysis, bank analysis, network analysis and dashboard-ready aggregations. |
+| **Power BI** | Designed and developed eight interactive dashboards for fraud monitoring, AML analysis, executive reporting and financial risk intelligence. |
+| **DAX (Data Analysis Expressions)** | Created KPIs, calculated measures, calculated columns and interactive business metrics within Power BI. |
+| **Visual Studio Code** | Primary development environment for Python scripting, SQL development and project organization. |
+| **Git** | Version control for tracking project development and code changes. |
+| **GitHub** | Repository hosting, documentation, project versioning and portfolio presentation. |
+
+---
+
+## 💡 Technologies by Project Layer
+
+| Project Layer | Technologies Used |
+|---------------|-------------------|
+| **Data Processing & ETL** | Python, Pandas, NumPy |
+| **Feature Engineering** | Python, Pandas, NumPy |
+| **Database Management** | MySQL |
+| **Data Analysis** | SQL |
+| **Business Intelligence** | Power BI, DAX |
+| **Development Environment** | Visual Studio Code |
+| **Version Control** | Git, GitHub |
