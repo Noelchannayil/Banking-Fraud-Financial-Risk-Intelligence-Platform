@@ -164,3 +164,24 @@ IBM HI-Small AML Dataset
 | **MySQL Database** | Stores the processed datasets in a relational database to enable efficient querying and structured data management. |
 | **SQL Analytics** | Performs transaction, customer, bank, payment and network analysis through modular SQL scripts. |
 | **Power BI Reporting** | Delivers interactive dashboards with KPIs, DAX measures, drill-through analysis, filters and executive reporting capabilities. |
+
+# 💼 Business Problem
+
+Financial institutions process **millions of transactions every day**, making it increasingly difficult to identify suspicious financial activities through manual monitoring alone. As transaction volumes grow across multiple banks, accounts, payment methods and currencies, analysts require reliable data engineering and business intelligence solutions to transform raw financial data into actionable insights.
+
+Anti-Money Laundering (AML) investigations often involve analyzing complex transaction relationships, identifying unusual transaction patterns, monitoring customer and account behavior, and evaluating bank-level risk indicators. Without a structured analytical platform, these activities can become time-consuming, fragmented and difficult to scale.
+
+This project addresses these challenges by building a centralized analytics platform that integrates data engineering, feature engineering, SQL analytics and interactive business intelligence. The platform enables analysts to explore transaction behavior, monitor AML-related activities, evaluate customer and banking performance, investigate suspicious transactions, analyze financial networks and support executive decision-making through interactive dashboards.
+
+---
+
+## 🎯 Business Challenges Addressed
+
+- Monitor large-scale banking transactions across multiple financial institutions.
+- Analyze Anti-Money Laundering (AML) activities using structured transaction data.
+- Identify suspicious transaction patterns for further investigation.
+- Evaluate customer and account behavior using engineered analytical features.
+- Analyze transaction relationships and cross-bank interactions through network analytics.
+- Monitor bank-level transaction performance and financial risk indicators.
+- Support data-driven decision-making through executive dashboards and interactive reporting.
+- Consolidate financial data into a centralized analytical platform for business intelligence and operational reporting.
