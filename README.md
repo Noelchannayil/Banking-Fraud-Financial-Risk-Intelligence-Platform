@@ -103,3 +103,64 @@ Each dashboard focuses on a specific analytical domain while supporting interact
 <p align="center">
   <img src="images/dashboard_08_executive_risk_intelligence.png" width="100%">
 </p>
+
+# 📖 About the Project
+
+The **Banking Fraud & Financial Risk Intelligence Platform** is an end-to-end **Financial Data Engineering and Business Intelligence** solution that transforms raw banking transaction data into meaningful fraud and financial risk insights.
+
+The project begins with the **IBM Anti-Money Laundering (AML) HI-Small dataset**, where raw banking transactions, account information and AML pattern data are audited, cleaned, validated and transformed through a modular Python ETL pipeline. During this process, multiple analytical features are engineered at the transaction, account, customer and network levels to enhance downstream analysis.
+
+The processed datasets are then loaded into a **MySQL relational database**, where SQL is used to perform exploratory analysis, business queries and dashboard-ready aggregations. Finally, the curated data is visualized in **Power BI** through interactive dashboards that support fraud monitoring, AML analysis, customer intelligence, banking performance evaluation, transaction analytics, network analysis and executive-level risk reporting.
+
+The platform emphasizes **data engineering, feature engineering, relational database design, SQL analytics and business intelligence**, providing a structured analytical workflow for understanding financial transaction behavior without relying on machine learning models.
+
+---
+
+## 🔄 End-to-End Workflow
+
+```text
+IBM HI-Small AML Dataset
+            │
+            ▼
+      Raw Data Audit
+            │
+            ▼
+ Data Cleaning & Transformation
+            │
+            ▼
+     Data Validation
+            │
+            ▼
+    Feature Engineering
+(Transaction • Account • Customer • Network)
+            │
+            ▼
+   Analytical Dataset Creation
+            │
+            ▼
+      MySQL Database
+            │
+            ▼
+       SQL Analytics
+            │
+            ▼
+ Interactive Power BI Dashboards
+            │
+            ▼
+ Business Insights & Executive Reporting
+```
+
+---
+
+## ⚙️ Workflow Stages
+
+| Stage | Description |
+|--------|-------------|
+| **Raw Data Audit** | Audits the original IBM AML datasets to verify file integrity, schema consistency and data quality before processing. |
+| **Data Cleaning & Transformation** | Cleans, standardizes and structures transaction, account, bank, customer and AML pattern datasets for downstream processing. |
+| **Data Validation** | Verifies dataset consistency, referential integrity, duplicate records and expected schema after cleaning. |
+| **Feature Engineering** | Generates transaction-level, account-level, customer-level and network-level analytical features to support fraud and financial risk analysis. |
+| **Analytical Dataset** | Consolidates engineered features into a centralized dataset optimized for reporting and visualization. |
+| **MySQL Database** | Stores the processed datasets in a relational database to enable efficient querying and structured data management. |
+| **SQL Analytics** | Performs transaction, customer, bank, payment and network analysis through modular SQL scripts. |
+| **Power BI Reporting** | Delivers interactive dashboards with KPIs, DAX measures, drill-through analysis, filters and executive reporting capabilities. |
