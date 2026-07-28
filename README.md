@@ -210,8 +210,8 @@ The project leverages a modern data engineering and business intelligence stack 
 | **Python** | Developed the end-to-end ETL pipeline, including data auditing, cleaning, validation, transformation and feature engineering. |
 | **Pandas** | Processed, transformed, aggregated and analyzed large-scale tabular datasets. |
 | **NumPy** | Performed numerical operations and supported efficient data manipulation during feature engineering. |
-| **MySQL** | Stored processed datasets in a relational database for structured data management and analytical querying. |
-| **SQL** | Performed exploratory analysis, business queries, transaction analytics, customer analysis, bank analysis, network analysis and dashboard-ready aggregations. |
+| **MySQL** |Designed and managed a relational database for storing processed datasets, supporting structured data management and analytical querying. |
+| **SQL** | Developed SQL scripts for exploratory analysis, transaction analytics, customer intelligence, banking analysis, network analysis and dashboard-ready aggregations. |
 | **Power BI** | Designed and developed eight interactive dashboards for fraud monitoring, AML analysis, executive reporting and financial risk intelligence. |
 | **DAX (Data Analysis Expressions)** | Created KPIs, calculated measures, calculated columns and interactive business metrics within Power BI. |
 | **Visual Studio Code** | Primary development environment for Python scripting, SQL development and project organization. |
