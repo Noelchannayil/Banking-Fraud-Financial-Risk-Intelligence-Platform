@@ -169,13 +169,13 @@ IBM HI-Small AML Dataset
 
 Financial institutions process **millions of transactions every day**, making it increasingly difficult to identify suspicious financial activities through manual monitoring alone. As transaction volumes grow across multiple banks, accounts, payment methods and currencies, analysts require reliable data engineering and business intelligence solutions to transform raw financial data into actionable insights.
 
-Anti-Money Laundering (AML) investigations often involve analyzing complex transaction relationships, identifying unusual transaction patterns, monitoring customer and account behavior, and evaluating bank-level risk indicators. Without a structured analytical platform, these activities can become time-consuming, fragmented and difficult to scale.
+Anti-Money Laundering (AML) investigations often involve analyzing complex transaction relationships, identifying unusual transaction patterns, monitoring customer and account behavior, and evaluating customer, account and bank-level risk indicators. Without a structured analytical platform, these activities can become time-consuming, fragmented and difficult to scale.
 
-This project addresses these challenges by building a centralized analytics platform that integrates data engineering, feature engineering, SQL analytics and interactive business intelligence. The platform enables analysts to explore transaction behavior, monitor AML-related activities, evaluate customer and banking performance, investigate suspicious transactions, analyze financial networks and support executive decision-making through interactive dashboards.
+This project addresses these challenges by building a centralized analytics platform that integrates data engineering, feature engineering, relational database management, SQL analytics and interactive business intelligence.. The platform enables analysts to explore transaction behavior, monitor AML-related activities, evaluate customer and banking performance, investigate suspicious transactions, analyze financial networks and support executive decision-making through interactive dashboards.
 
 ---
 
-## 🎯 Business Challenges Addressed
+## 🎯 Key Business Challenges
 
 - Monitor large-scale banking transactions across multiple financial institutions.
 - Analyze Anti-Money Laundering (AML) activities using structured transaction data.
