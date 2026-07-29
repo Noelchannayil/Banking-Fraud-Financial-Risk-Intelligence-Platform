@@ -243,7 +243,7 @@ The architecture is organized into distinct processing layers, where each stage 
 ## 🏛️ System Architecture
 
 <p align="center">
-    <img src="assets/architecture/project_architecture.png" width="95%">
+    <img src="Architecture/project_architecture.png" width="95%">
 </p>
 
 ---
