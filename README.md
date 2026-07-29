@@ -266,12 +266,11 @@ The architecture is organized into distinct processing layers, where each stage 
 
 ---
 
-## 📌 Architecture Highlights
+## ⭐ Architecture Highlights
 
-- Modular ETL pipeline built using Python.
-- Automated data auditing, cleaning, validation and transformation.
-- Multi-level feature engineering for transaction, account, customer and network analytics.
-- Relational database design using MySQL.
-- SQL-based analytical workflow supporting business intelligence.
-- Interactive Power BI dashboards with drill-through navigation and executive reporting.
-- Scalable architecture that separates data processing, storage, analytics and visualization into independent layers.
+- Modular Python ETL pipeline for auditing, cleaning, validation, and transformation.
+- Multi-level feature engineering across transaction, account, customer, and network datasets.
+- Relational MySQL database supporting structured analytical queries.
+- SQL-based analytical layer for business reporting and dashboard-ready aggregations.
+- Eight interactive Power BI dashboards with KPIs, DAX measures, filters, and drill-through analysis.
+- Layered architecture that separates data ingestion, processing, storage, analytics, and visualization.
