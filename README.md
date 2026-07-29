@@ -231,3 +231,44 @@ The project leverages a modern data engineering and business intelligence stack 
 | **Business Intelligence** | Power BI, DAX |
 | **Development Environment** | Visual Studio Code |
 | **Version Control** | Git, GitHub |
+
+# 🏗️ Project Architecture
+
+The **Banking Fraud & Financial Risk Intelligence Platform** follows a modular data engineering architecture that transforms raw banking transaction data into interactive business intelligence dashboards through a structured ETL workflow.
+
+The architecture is organized into distinct processing layers, where each stage performs a specific responsibility—from data auditing and cleaning to feature engineering, relational database management, SQL analytics and executive reporting.
+
+---
+
+## 🏛️ System Architecture
+
+<p align="center">
+    <img src="assets/architecture/project_architecture.png" width="95%">
+</p>
+
+---
+
+## 🔄 Architecture Overview
+
+| Layer | Description |
+|--------|-------------|
+| **Data Source** | IBM HI-Small Anti-Money Laundering (AML) dataset containing accounts, transactions and AML pattern data. |
+| **Data Audit** | Validates raw datasets by checking schema consistency, missing values, duplicates and overall data quality before processing. |
+| **ETL Pipeline** | Cleans, standardizes, validates, and transforms raw banking datasets using modular Python scripts. |
+| **Feature Engineering** | Generates transaction, account, customer and network-level analytical features to support financial risk analysis. |
+| **Analytical Dataset** | Consolidates engineered features into reporting-ready datasets optimized for SQL analytics and visualization. |
+| **MySQL Database** | Stores processed datasets in a relational database for structured querying and efficient data management. |
+| **SQL Analytics** | Performs business analysis, transaction analysis, customer analysis, network analysis, bank analysis and dashboard-ready aggregations. |
+| **Power BI Reporting** | Delivers interactive dashboards with KPIs, DAX measures, drill-through capabilities, filters and executive reporting. |
+
+---
+
+## 📌 Architecture Highlights
+
+- Modular ETL pipeline built using Python.
+- Automated data auditing, cleaning, validation and transformation.
+- Multi-level feature engineering for transaction, account, customer and network analytics.
+- Relational database design using MySQL.
+- SQL-based analytical workflow supporting business intelligence.
+- Interactive Power BI dashboards with drill-through navigation and executive reporting.
+- Scalable architecture that separates data processing, storage, analytics and visualization into independent layers.
