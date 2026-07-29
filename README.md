@@ -257,7 +257,7 @@ The architecture is organized into distinct processing layers, where each stage 
 |--------|-------------|
 | **Data Source** | IBM HI-Small Anti-Money Laundering (AML) dataset containing accounts, transactions and AML pattern data. |
 | **Data Audit** | Validates raw datasets by checking schema consistency, missing values, duplicates and overall data quality before processing. |
-| **ETL Pipeline** | Cleans, standardizes, validates, and transforms raw banking datasets using modular Python scripts. |
+| **ETL Pipeline** | Cleans, standardizes, validates and transforms raw banking datasets using modular Python scripts. |
 | **Feature Engineering** | Generates transaction, account, customer and network-level analytical features to support financial risk analysis. |
 | **Analytical Dataset** | Consolidates engineered features into reporting-ready datasets optimized for SQL analytics and visualization. |
 | **MySQL Database** | Stores processed datasets in a relational database for structured querying and efficient data management. |
@@ -268,9 +268,104 @@ The architecture is organized into distinct processing layers, where each stage 
 
 ## ⭐ Architecture Highlights
 
-- Modular Python ETL pipeline for auditing, cleaning, validation, and transformation.
-- Multi-level feature engineering across transaction, account, customer, and network datasets.
+- Modular Python ETL pipeline for auditing, cleaning, validation and transformation.
+- Multi-level feature engineering across transaction, account, customer and network datasets.
 - Relational MySQL database supporting structured analytical queries.
 - SQL-based analytical layer for business reporting and dashboard-ready aggregations.
-- Eight interactive Power BI dashboards with KPIs, DAX measures, filters, and drill-through analysis.
-- Layered architecture that separates data ingestion, processing, storage, analytics, and visualization.
+- Eight interactive Power BI dashboards with KPIs, DAX measures, filters and drill-through analysis.
+- Layered architecture that separates data ingestion, processing, storage, analytics and visualization.
+
+# 📂 Dataset Overview
+
+The **Banking Fraud & Financial Risk Intelligence Platform** is built using the **IBM Anti-Money Laundering (AML) HI-Small Dataset**, a synthetic financial dataset that simulates real-world banking transactions and money laundering activities. The dataset was obtained from **Kaggle** and is widely used for financial analytics, anti-money laundering (AML) research, fraud analysis and business intelligence applications.
+
+The dataset models interactions between customers, accounts, banks and financial transactions, while also providing labeled laundering activities that enable comprehensive analytical reporting. Throughout this project, the original **September 2022** transaction timeline has been preserved without modification.
+
+---
+
+## 📊 Dataset Statistics
+
+| Metric | Value |
+|---------|------:|
+| **Dataset Source** | IBM Anti-Money Laundering (AML) HI-Small Dataset |
+| **Platform** | Kaggle |
+| **Total Transactions** | **5.08 Million** |
+| **Total Customers** | **166K** |
+| **Total Accounts** | **519K** |
+| **Total Banks** | **30K** |
+| **Transaction Period** | **September 2022** |
+| **Fraud Labels** | Normal / Laundering |
+| **Payment Methods** | 7 |
+| **Currencies** | Multiple Supported |
+
+---
+
+# 📁 Raw Dataset Structure
+
+The original dataset consists of three primary files that collectively represent the banking ecosystem.
+
+| Dataset | Description |
+|----------|-------------|
+| **HI-Small_Accounts.csv** | Contains account information, customer mappings, bank identifiers, account numbers and entity details. |
+| **HI-Small_Trans.csv** | Stores banking transactions including timestamps, sender and receiver accounts, transaction amounts, currencies, payment methods and laundering labels. |
+| **HI-Small_Patterns.txt** | Contains structured Anti-Money Laundering (AML) transaction patterns describing known money laundering typologies. |
+
+---
+
+## 💳 Transaction Attributes
+
+Each transaction record contains the following key information:
+
+| Attribute | Description |
+|-----------|-------------|
+| **Timestamp** | Date and time of the transaction |
+| **From Bank** | Sender bank identifier |
+| **Sender Account** | Originating account number |
+| **To Bank** | Receiver bank identifier |
+| **Receiver Account** | Destination account number |
+| **Amount Paid** | Amount transferred by the sender |
+| **Payment Currency** | Currency used by the sender |
+| **Amount Received** | Amount received by the beneficiary |
+| **Receiving Currency** | Currency received by the beneficiary |
+| **Payment Method** | Transaction payment channel |
+| **Laundering Label** | Indicates whether the transaction is labeled as laundering |
+
+---
+
+## 📌 Dataset Characteristics
+
+The dataset provides a realistic representation of a large-scale banking environment and supports multiple analytical perspectives throughout the project.
+
+- Simulates a multi-bank financial ecosystem with approximately **30,000 banks**.
+- Contains over **5 million** financial transactions spanning multiple payment methods and currencies.
+- Models relationships between customers, accounts, banks and financial transactions.
+- Includes labeled laundering transactions to support Anti-Money Laundering (AML) analysis.
+- Enables customer, account, transaction, bank and network-level analytics through engineered features.
+- Preserves realistic transaction flows suitable for business intelligence and financial risk reporting.
+
+---
+
+## 🔄 Role of the Dataset in This Project
+
+The raw IBM HI-Small dataset serves as the foundation of the complete analytics pipeline.
+
+```text
+IBM HI-Small AML Dataset
+            │
+            ▼
+Python ETL Pipeline
+            │
+            ▼
+Feature Engineering
+            │
+            ▼
+MySQL Database
+            │
+            ▼
+SQL Analytics
+            │
+            ▼
+Power BI Dashboards
+```
+
+The processed data ultimately powers **eight interactive Power BI dashboards**, providing insights into transaction behavior, Anti-Money Laundering (AML) activities, customer intelligence, bank performance, network relationships, and executive-level financial risk reporting.
