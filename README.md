@@ -243,9 +243,12 @@ The architecture is organized into distinct processing layers, where each stage 
 ## 🏛️ System Architecture
 
 <p align="center">
+  <img src="Architecture/project_architecture.png" width="95%">
+</p>
+
+<p align="center">
 <i>Figure 1. End-to-end architecture of the Banking Fraud & Financial Risk Intelligence Platform.</i>
 </p>
-<img src="Architecture/project_architecture.png" width="95%">
 ---
 
 ## 🔄 Architecture Overview
