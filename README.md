@@ -1131,3 +1131,67 @@ Analysts can right-click any suspicious transaction within the **Recent Suspicio
 </p>
 
 ---
+
+---
+
+# 3️⃣ Investigation Workspace (Drill-Through)
+
+## 🎯 Purpose
+
+The **Investigation Workspace** is a dedicated drill-through dashboard designed to support detailed analysis of suspicious transactions. It enables investigators to move seamlessly from the high-level fraud summary presented in the **Fraud Intelligence Center** to transaction-level details, allowing efficient examination of individual fraud cases.
+
+The dashboard focuses on a selected suspicious transaction and provides comprehensive contextual information about the sender, receiver, associated bank, transaction amount, payment method, currency and fraud status to facilitate deeper investigation.
+
+---
+
+## 📈 Key KPIs
+
+- Selected Transaction ID
+- Selected Sender Account
+- Selected Receiver Account
+- Selected Bank
+- Selected Transaction Amount
+
+---
+
+## 📊 Main Visualizations
+
+- Transaction Investigation Summary Cards
+- Recent Suspicious Transactions Table
+- Conditional Formatting for Transaction Amounts
+- Interactive Drill-Through Navigation
+
+---
+
+## ❓ Business Questions Answered
+
+- Which transaction is currently under investigation?
+- Who is the sender and receiver involved in the transaction?
+- Which bank processed the selected transaction?
+- What is the value of the suspicious transaction?
+- Which payment method and currency were used?
+- Does the selected transaction require further investigation?
+- How does the selected transaction compare with other suspicious transactions?
+
+---
+
+## 💡 Business Value
+
+The Investigation Workspace provides investigators with a focused analytical environment for examining suspicious transactions without manually filtering large datasets. By presenting all relevant transaction details within a single dashboard, it reduces investigation time, improves analytical efficiency and supports faster decision-making during Anti-Money Laundering (AML) investigations.
+
+---
+
+## 🔗 Navigation
+
+This dashboard is accessed through **Power BI Drill-Through** from the **Fraud Intelligence Center**.
+
+Users can right-click any suspicious transaction in the **Recent Suspicious Transactions** table and navigate directly to the Investigation Workspace, where Users can right-click any suspicious transaction in the **Recent Suspicious Transactions** table and navigate directly to the Investigation Workspace. The selected transaction context is automatically passed through Power BI's drill-through functionality, ensuring that all KPI cards and transaction details are dynamically filtered for the chosen investigation.
+---
+
+## 📷 Dashboard Preview
+
+<p align="center">
+    <img src="images/dashboard_03_investigation_workspace.png" width="90%">
+</p>
+
+---
