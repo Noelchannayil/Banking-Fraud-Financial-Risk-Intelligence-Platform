@@ -372,9 +372,9 @@ The processed data ultimately powers **eight interactive Power BI dashboards**, 
 
 # ⚙️ ETL Pipeline
 
-The Banking Fraud & Financial Risk Intelligence Platform follows a **modular Extract, Transform, Load (ETL) pipeline** developed in Python. Rather than performing all processing within a single script, the pipeline is divided into independent stages, where each module performs a specific responsibility such as data auditing, cleaning, validation, feature engineering, or analytical dataset generation.
+The Banking Fraud & Financial Risk Intelligence Platform follows a **modular Extract, Transform, Load (ETL) pipeline** developed in Python. Rather than performing all processing within a single script, the pipeline is divided into independent stages, where each module performs a specific responsibility such as data auditing, cleaning, validation, feature engineering or analytical dataset generation.
 
-This modular architecture improves maintainability, simplifies debugging, and enables each stage of the data engineering workflow to be executed and validated independently.
+This modular architecture improves maintainability, simplifies debugging and enables each stage of the data engineering workflow to be executed and validated independently.
 
 ---
 
@@ -411,15 +411,15 @@ Power BI Dashboards
 
 | Stage | Python Script | Purpose |
 |--------|---------------|---------|
-| **1. Raw Data Audit** | `01_raw_data_audit.py` | Audits the raw IBM HI-Small dataset by examining file structure, data types, missing values, duplicate records, and overall data quality before processing. |
-| **2. Account Cleaning** | `02_clean_accounts.py` | Cleans and standardizes account data, validates account information, and prepares it for downstream processing. |
-| **3. Transaction Cleaning** | `03_clean_transactions.py` | Cleans banking transaction records, standardizes transaction attributes, and prepares high-volume transaction data for analysis. |
+| **1. Raw Data Audit** | `01_raw_data_audit.py` | Audits the raw IBM HI-Small dataset by examining file structure, data types, missing values, duplicate records and overall data quality before processing. |
+| **2. Account Cleaning** | `02_clean_accounts.py` | Cleans and standardizes account data, validates account information and prepares it for downstream processing. |
+| **3. Transaction Cleaning** | `03_clean_transactions.py` | Cleans banking transaction records, standardizes transaction attributes and prepares high-volume transaction data for analysis. |
 | **4. AML Pattern Cleaning** | `04_clean_patterns.py` | Cleans and structures AML pattern definitions for integration into the analytical workflow. |
-| **5. Data Validation** | `05_validate_cleaned_data.py` | Verifies cleaned datasets by checking schema consistency, duplicates, missing values, and data integrity. |
-| **6. Transaction Feature Engineering** | `06_derive_transaction_features.py` | Generates transaction-level analytical features including payment behavior, transaction characteristics, and engineered risk indicators. |
-| **7. Account Feature Engineering** | `07_derive_account_features.py` | Derives account-level features such as transaction statistics, activity metrics, and account behavior indicators. |
+| **5. Data Validation** | `05_validate_cleaned_data.py` | Verifies cleaned datasets by checking schema consistency, duplicates, missing values and data integrity. |
+| **6. Transaction Feature Engineering** | `06_derive_transaction_features.py` | Generates transaction-level analytical features including payment behavior, transaction characteristics and engineered risk indicators. |
+| **7. Account Feature Engineering** | `07_derive_account_features.py` | Derives account-level features such as transaction statistics, activity metrics and account behavior indicators. |
 | **8. Customer Feature Engineering** | `08_derive_customer_features.py` | Aggregates account information into customer-level analytical features for customer intelligence and behavioral analysis. |
-| **9. Network Feature Engineering** | `09_derive_network_features.py` | Builds relationship-based features by analyzing account connectivity, transaction networks, and cross-bank interactions. |
+| **9. Network Feature Engineering** | `09_derive_network_features.py` | Builds relationship-based features by analyzing account connectivity, transaction networks and cross-bank interactions. |
 | **10. Analytical Dataset Generation** | `10_build_analytical_dataset.py` | Combines all engineered datasets into a consolidated analytical dataset optimized for MySQL loading and Power BI reporting. |
 
 ---
@@ -431,7 +431,7 @@ The ETL pipeline was designed around the following principles:
 - Modular Python scripts with clearly defined responsibilities.
 - Independent execution of each processing stage.
 - Progressive data quality validation throughout the pipeline.
-- Separation of raw, cleaned, derived, and analytical datasets.
+- Separation of raw, cleaned, derived and analytical datasets.
 - Feature engineering performed at multiple analytical levels.
 - Reporting-ready datasets optimized for SQL analytics and Power BI visualization.
 
@@ -439,7 +439,7 @@ The ETL pipeline was designed around the following principles:
 
 ## 📁 ETL Output Structure
 
-The pipeline generates structured datasets organized into separate processing layers.
+The ETL pipeline produces structured datasets that are organized into separate processing layers, enabling clear separation between raw, cleaned, engineered and analytical data assets.
 
 ```text
 DATA
