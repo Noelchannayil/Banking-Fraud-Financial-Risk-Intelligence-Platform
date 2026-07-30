@@ -1017,8 +1017,7 @@ Together, these dashboards enable analysts, investigators, and decision-makers t
 
 ### 🎯 Purpose
 
-The **Executive Risk Command Center** provides a high-level overview of the banking ecosystem by consolidating key operational, transaction and Anti-Money Laundering (AML) metrics into a single executive dashboard. It enables stakeholders to monitor transaction activity, financial trends and risk indicators without requiring detailed analytical exploration.
-
+The **Executive Risk Command Center** provides a high-level overview of the banking ecosystem by consolidating key operational, transaction and Anti-Money Laundering (AML) metrics into a single executive dashboard. It enables executives and analysts to monitor transaction activity, financial trends, and AML risk indicators through a consolidated view of the banking ecosystem, eliminating the need to manually analyze large volumes of transaction data.
 ---
 
 ### 📈 Key KPIs
