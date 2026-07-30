@@ -589,6 +589,19 @@ The relational database is designed around interconnected banking entities.
 
 ---
 
+## 🏗️ Database Design Principles
+
+The MySQL database was designed to support scalable analytical reporting while maintaining a clear separation between operational entities and engineered analytical features.
+
+The design follows several core principles:
+
+- Normalized storage for core banking entities.
+- Independent feature tables for analytical processing.
+- Separation between transactional and reporting datasets.
+- SQL-friendly schema for efficient aggregations and business queries.
+- Optimized structure for Power BI star-schema modeling.
+
+
 ## 🔄 Data Flow into the Database
 
 ```text
