@@ -1120,7 +1120,7 @@ The Fraud Intelligence Center enables financial institutions to proactively moni
 
 The Fraud Intelligence Center is integrated with the **Investigation Workspace** through Power BI drill-through functionality.
 
-Analysts can right-click any suspicious transaction within the **Recent Suspicious Transactions** table and navigate directly to the Investigation Workspace, where detailed information about the selected transaction, sender, receiver, associated bank, transaction amount, payment method, currency, and fraud status is displayed for deeper investigation.
+Analysts can right-click any suspicious transaction within the **Recent Suspicious Transactions** table and navigate directly to the Investigation Workspace, where detailed information about the selected transaction, sender, receiver, associated bank, transaction amount, payment method, currency and fraud status is displayed for deeper investigation.
 
 ---
 
