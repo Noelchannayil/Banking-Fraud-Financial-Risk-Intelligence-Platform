@@ -1671,12 +1671,15 @@ The Banking Fraud & Financial Risk Intelligence Platform analyzes over **5.07 mi
 
 # 📁 Repository Structure
 
+## 📁 Repository Structure
+
 ```text
 Banking-Fraud-Financial-Risk-Intelligence-Platform/
 │
 ├── DATA/
+│   │
 │   ├── RAW/
-│   │   ├── HI-Small_accounts.csv
+│   │   ├── HI-Small_Accounts.csv
 │   │   ├── HI-Small_Trans.csv
 │   │   └── HI-Small_Patterns.txt
 │   │
@@ -1701,6 +1704,7 @@ Banking-Fraud-Financial-Risk-Intelligence-Platform/
 │   └── SYNTHETIC/
 │
 ├── SCRIPTS/
+│   │
 │   ├── AUDIT/
 │   │   └── 01_raw_data_audit.py
 │   │
@@ -1718,39 +1722,42 @@ Banking-Fraud-Financial-Risk-Intelligence-Platform/
 │   │   ├── 08_derive_customer_features.py
 │   │   └── 09_derive_network_features.py
 │   │
-│   ├── ANALYTICS/
-│   │   └── 10_build_analytical_dataset.py
-│   │
 │   └── GENERATION/
+│       └── 10_build_analytical_dataset.py
 │
 ├── SQL/
-│   ├── 08_basic_data_exploration.sql
-│   ├── 09_transaction_analysis.sql
-│   ├── 10_customer_analysis.sql
-│   ├── 11_network_analysis.sql
-│   ├── 12_bank_analysis.sql
-│   └── 13_dashboard_queries.sql
+│   ├── 01_basic_data_exploration.sql
+│   ├── 02_transaction_analysis.sql
+│   ├── 03_customer_analysis.sql
+│   ├── 04_bank_analysis.sql
+│   ├── 05_network_analysis.sql
+│   └── 06_dashboard_queries.sql
 │
-├── POWER BI/
+├── Power BI/
 │   ├── Banking Fraud & Financial Risk Intelligence Platform.pbix
 │   └── Dashboard Screenshots/
 │
-├── REPORTS/
+├── reports/
 │   ├── raw_data_audit_report.txt
 │   └── cleaned_data_validation_report.txt
 │
-├── DOCS/
+├── docs/
+│   ├── architecture/
+│   ├── diagrams/
+│   └── dataset/
 │
+├── LICENSE
+├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
 
-## Repository Highlights
+## ⭐ Repository Highlights
 
-- **DATA** contains the complete ETL pipeline, organized into **Raw**, **Cleaned**, **Derived** and **Analytics** layers.
-- **SCRIPTS** includes modular Python scripts for auditing, cleaning, validation, feature engineering and analytical dataset creation.
-- **SQL** contains exploratory analysis and business intelligence queries used throughout the project.
-- **POWER BI** contains the final interactive dashboard and dashboard preview images.
-- **REPORTS** stores automatically generated audit and validation reports.
-- **DOCS** contains supporting project documentation.
-- **README.md** provides complete project documentation, dashboard explanations and setup instructions.
+- **DATA/** contains the complete ETL workflow organized into Raw, Cleaned, Derived, Analytical, and Synthetic datasets.
+- **SCRIPTS/** contains modular Python ETL scripts for auditing, cleaning, validation, feature engineering, and analytical dataset generation.
+- **SQL/** contains exploratory analysis, feature engineering, analytical queries, and Power BI reporting queries.
+- **Power BI/** contains the complete interactive dashboard (.pbix) file and dashboard screenshots.
+- **reports/** contains automated data quality validation and audit reports generated during ETL execution.
+- **docs/** contains architecture diagrams, workflow illustrations, and supporting project documentation.
+- **README.md** provides comprehensive project documentation, setup instructions, dashboard explanations, and business insights.
