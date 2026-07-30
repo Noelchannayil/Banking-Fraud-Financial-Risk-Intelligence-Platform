@@ -466,3 +466,25 @@ DATA
 └── ANALYTICS
     └── analytical_dataset.csv
 ```
+
+## 📁 Python ETL Scripts
+
+The complete ETL pipeline is organized under the **SCRIPTS** directory, where each module performs an independent stage of the data engineering workflow.
+
+```text
+SCRIPTS
+├── AUDIT
+│   └── 01_raw_data_audit.py
+├── CLEANING
+│   ├── 02_clean_accounts.py
+│   ├── 03_clean_transactions.py
+│   └── 04_clean_patterns.py
+├── VALIDATION
+│   └── 05_validate_cleaned_data.py
+├── DERIVATION
+│   ├── 06_derive_transaction_features.py
+│   ├── 07_derive_account_features.py
+│   ├── 08_derive_customer_features.py
+│   └── 09_derive_network_features.py
+└── ANALYTICS
+    └── 10_build_analytical_dataset.py
