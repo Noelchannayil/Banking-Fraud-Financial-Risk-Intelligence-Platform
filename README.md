@@ -1069,4 +1069,65 @@ This dashboard serves as the primary executive monitoring interface, providing d
 </p>
 
 ---
+---
 
+# 2️⃣ Fraud Intelligence Center
+
+## 🎯 Purpose
+
+The **Fraud Intelligence Center** serves as the primary Anti-Money Laundering (AML) monitoring dashboard, providing detailed insights into suspicious transactions, laundering activities, fraud trends, high-risk banks and payment behavior. It enables analysts to identify abnormal transaction patterns, evaluate financial crime indicators and investigate suspicious activities through interactive visualizations.
+
+---
+
+## 📈 Key KPIs
+
+- Laundering Transactions
+- Laundering Rate (%)
+- Suspicious Accounts
+- Total Laundered Amount
+- Average Fraud Amount
+
+---
+
+## 📊 Main Visualizations
+
+- Daily Laundering Trend
+- Fraud Transactions by Payment Method
+- Top 10 Banks by Laundered Amount
+- Fraud Transactions by Currency
+- Recent Suspicious Transactions Table
+
+---
+
+## ❓ Business Questions Answered
+
+- How many transactions have been identified as laundering activities?
+- What percentage of total transactions are classified as suspicious?
+- Which banks are associated with the highest laundered amounts?
+- Which payment methods are most frequently used in suspicious transactions?
+- Which currencies appear most often in laundering activities?
+- How do laundering activities change over time?
+- Which suspicious transactions require further investigation?
+
+---
+
+## 💡 Business Value
+
+The Fraud Intelligence Center enables financial institutions to proactively monitor Anti-Money Laundering (AML) activities by consolidating critical fraud indicators into a single analytical workspace. It helps investigators prioritize high-risk transactions, identify emerging fraud trends, evaluate bank-level exposure and support compliance with financial crime monitoring requirements. The dashboard also serves as the primary entry point for detailed transaction investigations through the dedicated **Investigation Workspace** drill-through dashboard.
+
+---
+## 🔗 Navigation
+
+The Fraud Intelligence Center is integrated with the **Investigation Workspace** through Power BI drill-through functionality.
+
+Analysts can right-click any suspicious transaction within the **Recent Suspicious Transactions** table and navigate directly to the Investigation Workspace, where detailed information about the selected transaction, sender, receiver, associated bank, transaction amount, payment method, currency, and fraud status is displayed for deeper investigation.
+
+---
+
+## 📷 Dashboard Preview
+
+<p align="center">
+    <img src="images/dashboard_02_fraud_intelligence_center.png" width="90%">
+</p>
+
+---
