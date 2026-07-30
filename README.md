@@ -1611,7 +1611,7 @@ This dashboard monitors the organization's highest-level financial crime indicat
 
 ## 📷 Dashboard Preview
 
-![Executive Risk Intelligence Dashboard](images/dashboard_08_executive_risk_intelligence_dashboard.png)
+![Executive Risk Intelligence Dashboard](images/dashboard_08_executive_risk_intelligence.png)
 
 ---
 
