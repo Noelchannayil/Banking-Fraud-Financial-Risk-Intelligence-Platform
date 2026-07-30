@@ -525,7 +525,7 @@ Python ETL Pipeline
 
 ## 📂 Database Tables
 
-The database is organized into multiple logical tables representing banking entities, transactions, engineered features, and analytical datasets.
+The database is organized into multiple logical tables representing banking entities, transactions, engineered features and analytical datasets.
 
 | Table | Description |
 |--------|-------------|
@@ -583,7 +583,7 @@ The relational database is designed around interconnected banking entities.
 - Normalized relational database structure.
 - Separate storage for raw entities and engineered analytical features.
 - Optimized for SQL-based analytical querying.
-- Supports customer, account, bank, transaction, and network analysis.
+- Supports customer, account, bank, transaction and network analysis.
 - Provides dashboard-ready datasets for Power BI.
 - Designed to integrate seamlessly with the modular Python ETL pipeline.
 
