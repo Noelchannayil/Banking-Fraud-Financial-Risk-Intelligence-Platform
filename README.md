@@ -922,6 +922,24 @@ The Power BI semantic model was designed using the following principles:
 
 ---
 
+## 🔍 Drill-Through Navigation
+
+The Power BI solution incorporates **drill-through functionality** to enable seamless navigation from high-level fraud summaries to transaction-level investigations.
+
+The **Fraud Intelligence Center** dashboard serves as the primary analytical entry point for suspicious activity monitoring. Analysts can drill through directly into the **Investigation Workspace**, where detailed information about the selected transaction is displayed, including:
+
+- Selected Transaction ID
+- Sender Account
+- Receiver Account
+- Associated Bank
+- Transaction Amount
+- Payment Method
+- Currency
+- Fraud Status
+
+This functionality enables analysts to move from executive-level monitoring to detailed investigative analysis without leaving the reporting environment, improving the efficiency of fraud investigation workflows.
+---
+
 ## 🧮 DAX Implementation
 
 DAX (Data Analysis Expressions) is used throughout the project to create reusable business calculations and interactive KPIs.
@@ -986,4 +1004,70 @@ Key benefits include:
 - Interactive exploration of customer, account, bank, transaction, and network data.
 - Executive-ready reporting with centralized business logic.
 - Flexible analytical model supporting multiple reporting perspectives.
+
+# 📊 Dashboard Overview
+
+The Banking Fraud & Financial Risk Intelligence Platform consists of **eight interactive Power BI dashboards**, each designed to address a specific business domain within fraud detection, Anti-Money Laundering (AML), financial risk monitoring, and executive reporting.
+
+Together, these dashboards enable analysts, investigators, and decision-makers to explore banking transactions from multiple perspectives—from executive summaries and fraud monitoring to customer intelligence, bank performance, payment analytics, and transaction network analysis.
+
+---
+
+# 1️⃣ Executive Risk Command Center
+
+### 🎯 Purpose
+
+The **Executive Risk Command Center** provides a high-level overview of the banking ecosystem by consolidating key operational, transaction and Anti-Money Laundering (AML) metrics into a single executive dashboard. It enables stakeholders to monitor transaction activity, financial trends and risk indicators without requiring detailed analytical exploration.
+
+---
+
+### 📈 Key KPIs
+
+- Total Transactions
+- Total Customers
+- Total Banks
+- Total Transaction Amount
+- Laundering Transactions
+- Laundering Rate (%)
+
+---
+
+### 📊 Main Visualizations
+
+- Daily AML Alerts Trend
+- Daily Transaction Volume
+- Top 10 Banks by Transaction Volume
+- Top Banks by Transaction Value
+- Top Payment Currencies
+- Payment Method Distribution
+- Interactive Bank Filter
+- Interactive Currency Filter
+
+---
+
+### ❓ Business Questions Answered
+
+- How many banking transactions have been processed?
+- What is the overall laundering rate?
+- Which banks process the highest transaction volumes?
+- Which banks generate the highest transaction value?
+- Which payment currencies dominate the banking ecosystem?
+- How are payment methods distributed across transactions?
+- How do daily transaction volumes compare with AML alerts?
+
+---
+
+### 💡 Business Value
+
+This dashboard serves as the primary executive monitoring interface, providing decision-makers with an immediate understanding of operational performance, transaction trends and Anti-Money Laundering (AML) indicators. It supports rapid identification of unusual activity while offering a consolidated view of the overall banking environment.
+
+---
+
+### 📷 Dashboard Preview
+
+<p align="center">
+    <img src="images/dashboard_01_executive_risk_command_center.png" width="90%">
+</p>
+
+---
 
