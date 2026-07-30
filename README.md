@@ -1442,7 +1442,176 @@ The following dashboard provides an interactive overview of payment behavior, tr
 </p>
 
 ---
+# <a id="dashboard-7"></a>7️⃣ Network & Relationship Analysis
 
+---
 
+## 🎯 Purpose
 
+The **Network & Relationship Analysis** dashboard provides a comprehensive view of transaction relationships between accounts, customers and banking institutions. It enables analysts to identify highly connected accounts, analyze transaction networks, monitor relationship patterns and uncover potential money laundering structures through network-based analytics.
+
+By visualizing transactional relationships and connectivity metrics, the dashboard supports fraud investigation, Anti-Money Laundering (AML) monitoring and identification of suspicious financial networks.
+
+---
+
+## 📈 Key KPIs
+
+- Total Network Accounts
+- Total Network Customers
+- Average Account Connections
+- Most Connected Account
+- Average Unique Recipients
+
+---
+
+## 📊 Main Visualizations
+
+- Top 10 Most Connected Accounts
+- Top 10 Accounts by Incoming Connections
+- Top 10 Accounts by Outgoing Connections
+- Top Accounts by Cross-Bank Connections
+- Top Accounts by Unique Receivers
+- Top Accounts by Unique Senders
+- Network Intelligence Table
+- Account Number Slicer
+- Customer ID Slicer
+---
+
+## ❓ Business Questions Answered
+
+- Which accounts have the highest number of transaction connections?
+- Which accounts act as major transaction hubs?
+- Which banking relationships appear most frequently?
+- Which transaction networks require further investigation?
+- How are sender and receiver accounts interconnected?
+- Which accounts demonstrate unusually high connectivity?
+- Are there clusters of accounts indicating possible laundering networks?
+- Which banking institutions participate in the largest transaction networks?
+
+---
+
+## 💡 Business Value
+
+The **Network & Relationship Analysis** dashboard enables financial institutions to move beyond individual transaction analysis by examining the relationships between accounts and banks. Network-based analytics help investigators identify hidden transaction patterns, suspicious account clusters and highly connected entities that may indicate organized money laundering or fraudulent activity.
+
+By providing visibility into transaction connectivity and relationship structures, the dashboard strengthens AML investigations, accelerates fraud detection and supports more informed risk assessment.
+
+---
+
+## 🎛️ Interactive Features
+
+The dashboard supports interactive exploration through **Power BI slicers**, filters and **cross-filtering** capabilities. Selecting an account, bank, or transaction network dynamically updates every visualization, allowing analysts to explore relationship structures from multiple perspectives.
+
+All visuals are interconnected using **Power BI cross-filtering**, enabling seamless navigation between connected accounts, transaction relationships and network metrics without leaving the dashboard.
+
+---
+
+## 🕸️ Network Metrics Monitored
+
+This dashboard evaluates transactional relationships using multiple network-based indicators, including:
+
+- Total Connections
+- Incoming Connections
+- Outgoing Connections
+- Cross-Bank Connections
+- Unique Senders
+- Unique Receivers
+- Average Account Connections
+- Most Connected Account
+
+---
+
+The following dashboard provides an interactive overview of transaction relationships, account connectivity and financial network structures used to support fraud detection and Anti-Money Laundering (AML) investigations.
+
+---
+
+## 📷 Dashboard Preview
+
+<p align="center">
+  <img src="images/dashboard_07_network_relationship_analysis.png" width="100%">
+</p>
+
+---
+
+# 8️⃣ Executive Risk Intelligence Dashboard
+
+---
+
+## 🎯 Purpose
+
+The **Executive Risk Intelligence Dashboard** provides a high-level overview of financial crime risk across the banking ecosystem. It consolidates key Anti-Money Laundering (AML) indicators, suspicious activity metrics, bank-level risk rankings and executive recommendations into a single decision-support dashboard.
+
+Designed for senior management, compliance officers and financial crime investigators, the dashboard enables rapid assessment of organizational risk exposure, highlights high-risk banking institutions and supports strategic decision-making through summarized business insights and risk recommendations.
+
+---
+
+## 🔗 Key KPIs
+
+- Overall Risk Score
+- Total Laundered Amount
+- Suspicious Accounts
+- Total Banks
+- Laundering Rate (%)
+
+---
+
+## 📊 Main Visualizations
+
+- Executive Summary
+- Transaction Count by Fraud Status
+- Highest Risk Banks
+- Executive Risk Intelligence Table
+- Recommended Actions
+
+---
+
+## ❓ Business Questions Answered
+
+- What is the overall financial crime risk across the banking network?
+- How many suspicious accounts have been identified?
+- What is the total amount associated with laundering activities?
+- Which banks currently present the highest laundering risk?
+- What percentage of banking transactions are classified as laundering activities?
+- Which banks should be prioritized for enhanced AML monitoring?
+- What strategic actions should management take to strengthen fraud prevention?
+
+---
+
+## 💡 Business Value
+
+The Executive Risk Intelligence Dashboard transforms detailed fraud analytics into executive-level insights that support strategic decision-making. By consolidating key AML indicators, bank risk rankings and summarized recommendations into a single view, decision-makers can quickly evaluate organizational risk, prioritize investigative resources and strengthen compliance efforts.
+
+The dashboard enables leadership teams to monitor financial crime trends, identify high-risk institutions and make informed decisions that enhance Anti-Money Laundering (AML) controls while reducing overall operational and regulatory risk.
+
+---
+
+## 🎛️ Interactive Features
+
+The dashboard supports interactive analysis through **Power BI cross-filtering**, allowing executives to explore relationships between fraud status, bank risk rankings and executive risk metrics.
+
+All KPI cards, charts and the Executive Risk Intelligence Table respond dynamically to report interactions, enabling users to investigate high-risk banks while maintaining a consolidated executive view of the organization's AML performance.
+
+---
+
+## 📈 Executive Metrics Monitored
+
+This dashboard monitors the organization's highest-level financial crime indicators, including:
+
+- Overall Risk Score
+- Total Laundered Amount
+- Suspicious Accounts
+- Total Banks
+- Laundering Rate (%)
+- Fraud Status Distribution
+- Highest Risk Banks
+- Executive Risk Rankings
+- Executive Recommendations
+
+---
+
+## 📷 Dashboard Preview
+
+![Executive Risk Intelligence Dashboard](images/dashboard_8_executive_risk_intelligence_dashboard.png)
+
+---
 
