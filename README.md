@@ -1351,3 +1351,98 @@ The following dashboard provides an interactive overview of institutional perfor
 </p>
 
 ---
+# <a id="dashboard-6"></a>6️⃣ Payment & Transaction Analytics
+
+---
+
+## 🎯 Purpose
+
+The **Payment & Transaction Analytics** dashboard provides a comprehensive analysis of banking transaction activity across payment methods, currencies, transaction amounts and financial flows. It enables analysts to monitor transaction trends, evaluate payment behavior, identify dominant payment channels and understand the distribution of financial transactions throughout the banking ecosystem.
+
+By consolidating payment and transaction metrics into a unified analytical workspace, the dashboard supports operational monitoring, transaction intelligence, financial reporting and Anti-Money Laundering (AML) analysis.
+
+---
+
+## 📈 Key KPIs
+
+- Total Transaction Value
+- Average Transaction Amount
+- Intra-Bank Transactions
+- Inter-Bank Transactions
+- Total Payment Methods
+
+---
+
+## 📊 Main Visualizations
+
+- Payment Method Distribution
+- Transaction Value by Hour of Day
+- Top 10 Receiving Currencies
+- Transaction Value by Payment Method
+- Top 10 Payment Currencies
+- Transaction Flow Distribution
+- Interactive Payment Method Filter
+- Interactive Currency Filter
+
+---
+
+## ❓ Business Questions Answered
+
+- Which payment methods are used most frequently?
+- Which payment methods process the highest transaction values?
+- Which currencies dominate banking transactions?
+- How does transaction activity change over time?
+- What is the average transaction amount across payment methods?
+- Which currencies contribute the highest transaction values?
+- How are transactions distributed across different payment channels?
+- What payment trends can be observed within the banking ecosystem?
+- During which hours does transaction activity peak?
+- What proportion of transactions are intra-bank versus inter-bank?
+
+---
+
+## 💡 Business Value
+
+The **Payment & Transaction Analytics** dashboard enables financial institutions to understand transaction behavior across payment channels and currencies through comprehensive analytical reporting. By monitoring transaction volumes, payment distributions, transaction values and currency usage, the dashboard supports operational efficiency, payment trend analysis, financial reporting and AML monitoring.
+
+The hourly transaction analysis helps identify peak transaction periods and operational activity throughout the day, enabling better understanding of transaction behavior. The insights generated help financial organizations optimize payment operations, identify unusual transaction patterns, evaluate payment channel performance and support strategic business decisions.
+
+---
+
+## 🎛️ Interactive Features
+
+The dashboard supports interactive exploration through **Power BI slicers**, filters and **cross-filtering** capabilities. Selecting a payment method, currency, or transaction category dynamically updates all visualizations, allowing users to analyze transaction behavior from multiple analytical perspectives.
+
+All visuals are interconnected using **Power BI cross-filtering**, enabling seamless navigation between payment methods, transaction trends, currencies and transaction values without leaving the dashboard.The dashboard also provides visibility into transaction flow patterns between institutions, helping organizations better understand payment ecosystems and identify operational anomalies.
+
+---
+
+## 💳 Transaction Metrics Monitored
+
+This dashboard evaluates payment activity using multiple operational and financial indicators, including:
+
+- Transaction Volume
+- Transaction Value
+- Average Transaction Amount
+- Payment Method Distribution
+- Currency Distribution
+- Receiving Currency Analysis
+- Daily/Hourly Transaction Trends1
+- Payment Channel Performance
+- Cross-Currency Analysis
+
+---
+
+The following dashboard provides an interactive overview of payment behavior, transaction trends, currency utilization and financial transaction analytics.
+
+## 📷 Dashboard Preview
+
+<p align="center">
+  <img src="images/dashboard_06_payment_transaction_analytics.png" width="100%">
+</p>
+
+---
+
+
+
+
