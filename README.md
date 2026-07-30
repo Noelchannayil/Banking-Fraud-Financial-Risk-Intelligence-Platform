@@ -1262,3 +1262,92 @@ This dashboard supports interactive filtering across customer types and account 
 
 ---
 
+# <a id="dashboard-5"></a>5️⃣ Bank Performance Intelligence
+
+---
+
+## 🎯 Purpose
+
+The **Bank Performance Intelligence** dashboard provides a comprehensive view of banking institution performance by analyzing transaction volume, transaction value, customer activity and financial risk indicators across multiple banks. It enables analysts and executives to compare operational performance, identify high-performing institutions, monitor high-risk banks and evaluate banking trends using interactive visualizations.
+
+By consolidating bank-level metrics into a single analytical workspace, the dashboard supports strategic decision-making, operational benchmarking and **Anti-Money Laundering (AML)** risk assessment.
+
+---
+
+## 📈 Key KPIs
+
+- Total Banks
+- Total Transactions
+- Total Transaction Amount
+- Average Transaction Value per Bank
+- High-Risk Banks
+- Laundering Rate (%)
+
+---
+
+## 📊 Main Visualizations
+
+- Top 10 Banks by Transaction Volume
+- Top 10 Banks by Transaction Value
+- Top Banks by Laundered Amount
+- Transaction Distribution by Bank
+- Bank Performance Ranking
+- Bank Summary Table
+- Interactive Bank Filter
+- Interactive Currency Filter
+
+---
+
+## ❓ Business Questions Answered
+
+- Which banks process the highest number of transactions?
+- Which banks generate the highest transaction value?
+- Which banks are associated with the largest laundering amounts?
+- Which financial institutions demonstrate elevated laundering rates?
+- How does transaction activity differ across banks?
+- Which banks require enhanced monitoring due to financial risk?
+- Which banks contribute the most to the overall banking ecosystem?
+- How does transaction performance vary across different currencies?
+
+---
+
+## 💡 Business Value
+
+The **Bank Performance Intelligence** dashboard enables financial institutions to evaluate operational performance across banks while simultaneously monitoring **Anti-Money Laundering (AML)** risk indicators. By identifying high-volume institutions, high-value transaction hubs and banks associated with suspicious financial activity, the dashboard supports regulatory compliance, strategic planning, operational benchmarking and data-driven decision-making.
+
+It provides management with a centralized view of institutional performance, helping prioritize risk investigations, benchmark banks, identify operational trends and optimize banking operations.
+
+---
+
+## 🎛️ Interactive Features
+
+The dashboard supports interactive exploration through **Power BI slicers**, filters, and **cross-filtering** capabilities. Selecting a bank, currency, or performance category dynamically updates all visualizations, enabling users to compare institutions, analyze transaction trends and investigate bank-specific performance from multiple analytical perspectives.
+
+All visuals are interconnected using **Power BI cross-filtering**, allowing analysts to seamlessly transition between bank rankings, transaction metrics and risk indicators without leaving the dashboard.
+
+---
+
+## ## 📊 Performance Metrics Monitored
+
+This dashboard evaluates banking institutions using multiple operational and risk-based performance indicators, including:
+
+- Transaction Volume
+- Transaction Value
+- Transaction Growth Trends
+- Average Transaction Size
+- Customer Activity
+- Laundering Rate
+- Suspicious Transaction Volume
+- Bank Ranking
+- Cross-Bank Comparison
+
+---
+
+## 📷 Dashboard Preview
+
+The following dashboard provides an interactive overview of institutional performance, transaction activity, laundering indicators and comparative bank analytics.
+<p align="center">
+  <img src="images/dashboard_05_bank_performance_intelligence.png" width="100%">
+</p>
+
+---
