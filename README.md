@@ -1668,3 +1668,89 @@ The Banking Fraud & Financial Risk Intelligence Platform analyzes over **5.07 mi
 - The Executive Risk Intelligence Dashboard consolidates fraud metrics, bank risk rankings and AML indicators into a single executive decision-support view.
 - High-risk banking institutions can be prioritized based on laundering rate and suspicious financial activity.
 - Executive recommendations support proactive monitoring, risk mitigation and strategic compliance planning.
+
+# 📁 Repository Structure
+
+```text
+Banking-Fraud-Financial-Risk-Intelligence-Platform/
+│
+├── DATA/
+│   ├── RAW/
+│   │   ├── HI-Small_accounts.csv
+│   │   ├── HI-Small_Trans.csv
+│   │   └── HI-Small_Patterns.txt
+│   │
+│   ├── CLEANED/
+│   │   ├── accounts.csv
+│   │   ├── banks.csv
+│   │   ├── customers.csv
+│   │   ├── transactions.csv
+│   │   ├── aml_patterns.csv
+│   │   ├── aml_pattern_transactions.csv
+│   │   └── work.sql
+│   │
+│   ├── DERIVED/
+│   │   ├── transaction_features.csv
+│   │   ├── account_features.csv
+│   │   ├── customer_features.csv
+│   │   └── network_features.csv
+│   │
+│   ├── ANALYTICS/
+│   │   └── analytical_dataset.csv
+│   │
+│   └── SYNTHETIC/
+│
+├── SCRIPTS/
+│   ├── AUDIT/
+│   │   └── 01_raw_data_audit.py
+│   │
+│   ├── CLEANING/
+│   │   ├── 02_clean_accounts.py
+│   │   ├── 03_clean_transactions.py
+│   │   └── 04_clean_patterns.py
+│   │
+│   ├── VALIDATION/
+│   │   └── 05_validate_cleaned_data.py
+│   │
+│   ├── DERIVATION/
+│   │   ├── 06_derive_transaction_features.py
+│   │   ├── 07_derive_account_features.py
+│   │   ├── 08_derive_customer_features.py
+│   │   └── 09_derive_network_features.py
+│   │
+│   ├── ANALYTICS/
+│   │   └── 10_build_analytical_dataset.py
+│   │
+│   └── GENERATION/
+│
+├── SQL/
+│   ├── 08_basic_data_exploration.sql
+│   ├── 09_transaction_analysis.sql
+│   ├── 10_customer_analysis.sql
+│   ├── 11_network_analysis.sql
+│   ├── 12_bank_analysis.sql
+│   └── 13_dashboard_queries.sql
+│
+├── POWER BI/
+│   ├── Banking Fraud & Financial Risk Intelligence Platform.pbix
+│   └── Dashboard Screenshots/
+│
+├── REPORTS/
+│   ├── raw_data_audit_report.txt
+│   └── cleaned_data_validation_report.txt
+│
+├── DOCS/
+│
+├── requirements.txt
+└── README.md
+```
+
+## Repository Highlights
+
+- **DATA** contains the complete ETL pipeline, organized into **Raw**, **Cleaned**, **Derived** and **Analytics** layers.
+- **SCRIPTS** includes modular Python scripts for auditing, cleaning, validation, feature engineering and analytical dataset creation.
+- **SQL** contains exploratory analysis and business intelligence queries used throughout the project.
+- **POWER BI** contains the final interactive dashboard and dashboard preview images.
+- **REPORTS** stores automatically generated audit and validation reports.
+- **DOCS** contains supporting project documentation.
+- **README.md** provides complete project documentation, dashboard explanations and setup instructions.
