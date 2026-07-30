@@ -465,7 +465,7 @@ DATA
 │
 └── ANALYTICS
     └── analytical_dataset.csv
-```
+
 
 ## 📁 Python ETL Scripts
 
@@ -488,7 +488,7 @@ SCRIPTS
 │   └── 09_derive_network_features.py
 └── ANALYTICS
     └── 10_build_analytical_dataset.py
-
+```
 # 🗄️ Database Design
 
 The Banking Fraud & Financial Risk Intelligence Platform utilizes a **MySQL relational database** as the central storage layer between the Python ETL pipeline and the Power BI reporting environment. After data cleaning and feature engineering, the processed datasets are loaded into MySQL, where they are organized into structured relational tables for efficient querying, analysis, and dashboard integration.
@@ -612,4 +612,3 @@ SQL Analytics
       ▼
 Power BI Dashboards
 ```
-
