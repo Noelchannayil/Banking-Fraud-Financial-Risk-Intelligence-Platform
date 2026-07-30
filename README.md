@@ -880,7 +880,7 @@ SQL Analytics
 Power BI Data Import
        │
        ▼
-Relationship Modeling
+Semantic Data Model
        │
        ▼
 DAX Measures & Calculated Columns
@@ -961,6 +961,18 @@ The Power BI dashboards incorporate several interactive capabilities to improve 
 - Multi-page analytical reporting.
 
 ---
+## 📑 Report Structure
+
+The Power BI solution is organized into **eight interconnected dashboards**, each designed to address a specific business domain.
+
+- Executive Risk Command Center
+- Fraud Intelligence Center
+- Investigation Workspace
+- Customer & Account Intelligence
+- Bank Performance Intelligence
+- Payment & Transaction Analytics
+- Network & Relationship Analysis
+- Executive Risk Intelligence Dashboard
 
 ## 📈 Data Model Benefits
 
