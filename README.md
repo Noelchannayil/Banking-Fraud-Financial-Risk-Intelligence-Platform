@@ -1593,7 +1593,7 @@ All KPI cards, charts and the Executive Risk Intelligence Table respond dynamica
 
 ---
 
-## 📈 Executive Metrics Monitored
+## 📈 Metrics Monitored
 
 This dashboard monitors the organization's highest-level financial crime indicators, including:
 
@@ -1604,7 +1604,7 @@ This dashboard monitors the organization's highest-level financial crime indicat
 - Laundering Rate (%)
 - Fraud Status Distribution
 - Highest Risk Banks
-- Executive Risk Rankings
+- Bank Risk Rankings
 - Executive Recommendations
 
 ---
