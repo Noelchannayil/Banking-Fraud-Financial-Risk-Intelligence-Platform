@@ -1195,3 +1195,70 @@ Users can right-click any suspicious transaction in the **Recent Suspicious Tran
 </p>
 
 ---
+
+---
+
+# 4️⃣ Customer & Account Intelligence
+
+## 🎯 Purpose
+
+The **Customer & Account Intelligence** dashboard provides a comprehensive view of customer activity, account utilization and transaction behavior across the banking ecosystem. It enables analysts to evaluate customer engagement, identify high-activity accounts, monitor account performance and understand transaction patterns through customer-centric analytics.
+
+The dashboard combines customer, account and transaction information to support behavioral analysis, operational monitoring and financial performance evaluation.
+
+---
+
+## 📈 Key KPIs
+
+- Total Customers
+- Total Accounts
+- Average Transactions per Customer
+- Average Transaction Amount
+- High-Risk Accounts
+
+---
+
+## 📊 Main Visualizations
+
+- Top Customers by Transaction Count
+- Top 10 Customers by Transaction Value
+- Most Active Accounts
+- Customer Transaction Summary Table
+- Transaction Value by Customer Type
+- Customer Distribution by Type
+
+---
+
+## ❓ Business Questions Answered
+
+- How many customers and accounts exist within the banking ecosystem?
+- Which customers generate the highest transaction values?
+- Which customers perform the greatest number of transactions?
+- Which accounts are the most active?
+- What is the average transaction value per customer?
+- Which customer categories contribute the highest transaction values?
+- How are customers distributed across different customer types?
+- Which accounts require closer monitoring due to elevated risk?
+- Which customer segments contribute the highest overall transaction value?
+
+---
+
+## 💡 Business Value
+
+The Customer & Account Intelligence dashboard enables financial institutions to better understand customer behavior, account activity and transaction patterns through consolidated analytical insights. It supports customer segmentation, operational monitoring, account performance evaluation and early identification of high-risk accounts. By providing visibility into customer engagement and transaction trends, the dashboard assists analysts in improving customer intelligence, optimizing account management and supporting informed business decisions.
+---
+
+## 🔗 Interactive Features
+
+This dashboard supports interactive filtering across customer types and account activity, allowing analysts to explore customer behavior from multiple perspectives. Selecting customers, customer categories, or highly active accounts dynamically updates the visualizations, enabling focused analysis of customer performance and transaction activity.
+
+---
+
+## 📷 Dashboard Preview
+
+<p align="center">
+    <img src="images/dashboard_04_customer_account_intelligence.png" width="90%">
+</p>
+
+---
+
