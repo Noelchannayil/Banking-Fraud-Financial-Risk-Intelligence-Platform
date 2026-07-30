@@ -625,3 +625,353 @@ SQL Analytics
       ▼
 Power BI Dashboards
 ```
+# 🧠 Feature Engineering
+
+Feature engineering is a critical stage of the Banking Fraud & Financial Risk Intelligence Platform, where cleaned transactional data is transformed into higher-level analytical datasets. Rather than relying solely on the original IBM HI-Small dataset, the project derives additional features that summarize transaction behavior, customer activity, account performance and network relationships.
+
+These engineered datasets improve analytical efficiency by reducing repetitive calculations and providing reporting-ready metrics for SQL analysis and Power BI dashboards.
+
+---
+
+## ⚙️ Feature Engineering Workflow
+
+```text
+Cleaned Data
+      │
+      ▼
+Transaction Features
+      │
+      ▼
+Account Features
+      │
+      ▼
+Customer Features
+      │
+      ▼
+Network Features
+      │
+      ▼
+Analytical Dataset
+      │
+      ▼
+MySQL Database
+      │
+      ▼
+Power BI Dashboards
+```
+
+---
+
+## 📂 Engineered Feature Datasets
+
+The feature engineering pipeline generates four analytical datasets, each focused on a different level of financial analysis.
+
+| Dataset | Purpose |
+|----------|---------|
+| **transaction_features.csv** | Generates transaction-level metrics including payment behavior, transaction characteristics and engineered analytical indicators. |
+| **account_features.csv** | Produces account-level summaries such as transaction activity, payment statistics and behavioral metrics. |
+| **customer_features.csv** | Aggregates account information into customer-level insights including transaction patterns, account ownership and customer behavior. |
+| **network_features.csv** | Captures account connectivity, incoming and outgoing transaction relationships, cross-bank interactions and network characteristics. |
+
+---
+
+## 🔹 Transaction Features
+
+Transaction-level feature engineering enriches every banking transaction with additional analytical attributes that support fraud monitoring and transaction analysis.
+
+Examples include:
+
+- Transaction amount metrics
+- Payment behavior indicators
+- Transaction velocity
+- Time-based transaction characteristics
+- Cross-bank transaction identification
+- Payment channel analysis
+
+---
+
+## 🔹 Account Features
+
+Account-level features summarize the financial activity of each account by aggregating multiple transactions into meaningful behavioral metrics.
+
+Examples include:
+
+- Total transaction count
+- Total transaction value
+- Average transaction amount
+- Incoming transactions
+- Outgoing transactions
+- Payment behavior statistics
+- Account activity indicators
+
+---
+
+## 🔹 Customer Features
+
+Customer-level feature engineering combines multiple accounts belonging to a customer into consolidated analytical metrics.
+
+Examples include:
+
+- Number of accounts
+- Total transactions
+- Total transaction value
+- Average transaction value
+- Customer activity profile
+- Customer transaction behavior
+
+---
+
+## 🔹 Network Features
+
+Network feature engineering analyzes relationships between accounts to understand transaction connectivity and interaction patterns.
+
+Examples include:
+
+- Total network connections
+- Incoming connections
+- Outgoing connections
+- Unique senders
+- Unique receivers
+- Cross-bank connections
+- Network connectivity metrics
+
+---
+
+## 🎯 Feature Engineering Objectives
+
+The engineered datasets enable multiple analytical perspectives throughout the platform.
+
+- Support transaction-level financial analysis.
+- Measure account activity and behavioral patterns.
+- Generate customer intelligence metrics.
+- Analyze transaction networks and account connectivity.
+- Prepare optimized datasets for SQL analytics.
+- Improve dashboard performance by precomputing analytical metrics.
+- Enable executive reporting using reporting-ready datasets.
+
+---
+
+## 🚀 Benefits of Feature Engineering
+
+The feature engineering layer transforms raw transactional records into structured analytical assets that power the entire reporting platform.
+
+Key benefits include:
+
+- Reduced computational overhead during dashboard execution.
+- Faster SQL aggregations and analytical queries.
+- Improved scalability for large transaction volumes.
+- Consistent business metrics across all dashboards.
+- Simplified Power BI data modeling.
+- Centralized analytical logic within the Python ETL pipeline.
+
+# 📜 SQL Analytics
+
+The Banking Fraud & Financial Risk Intelligence Platform utilizes **MySQL** as its analytical database, where modular SQL scripts are used to explore transactional data, generate business insights, validate engineered datasets and prepare dashboard-ready aggregations for Power BI.
+
+Rather than relying on a single SQL script, the project organizes analytical queries into dedicated modules, each focusing on a specific business domain such as transaction analysis, customer intelligence, banking performance, network relationships and executive reporting.
+
+---
+
+## 🔄 SQL Analytics Workflow
+
+```text
+MySQL Database
+        │
+        ▼
+Basic Data Exploration
+        │
+        ▼
+Transaction Analysis
+        │
+        ▼
+Customer Analysis
+        │
+        ▼
+Network Analysis
+        │
+        ▼
+Bank Analysis
+        │
+        ▼
+Dashboard Queries
+        │
+        ▼
+Power BI Dashboards
+```
+
+---
+
+## 📂 SQL Modules
+
+The SQL layer is organized into modular scripts that perform specific analytical tasks throughout the project.
+
+| SQL Script | Purpose |
+|------------|---------|
+| **08_basic_data_exploration.sql** | Performs initial database exploration, validates imported datasets and examines overall data distribution. |
+| **09_transaction_analysis.sql** | Analyzes transaction volume, transaction value, payment methods, currencies, intra-bank and inter-bank transactions and financial activity trends. |
+| **10_customer_analysis.sql** | Generates customer-level insights including account ownership, customer activity, transaction behavior and customer performance metrics. |
+| **11_network_analysis.sql** | Examines account connectivity, transaction relationships, unique senders and receivers and cross-bank interaction patterns. |
+| **12_bank_analysis.sql** | Evaluates bank performance, transaction volume, transaction value, laundering statistics and financial risk indicators. |
+| **13_dashboard_queries.sql** | Produces optimized SQL queries and aggregated datasets used for Power BI dashboards and executive reporting. |
+
+---
+
+## 📊 Analytical Areas Covered
+
+The SQL analytics layer enables comprehensive analysis across multiple business domains.
+
+| Analysis Area | Business Purpose |
+|---------------|------------------|
+| **Transaction Analytics** | Analyze transaction volume, transaction value, payment behavior and financial activity. |
+| **Customer Analytics** | Evaluate customer behavior, account ownership, activity levels and transaction patterns. |
+| **Bank Analytics** | Measure bank performance, transaction trends and Anti-Money Laundering (AML) indicators. |
+| **Network Analytics** | Analyze transaction relationships, account connectivity and cross-bank interactions. |
+| **Executive Reporting** | Generate aggregated business metrics and KPI-ready datasets for Power BI dashboards. |
+
+---
+
+## ⚡ SQL Design Principles
+
+The SQL layer was developed using a modular approach to improve readability, maintainability and analytical flexibility.
+
+Key design principles include:
+
+- Domain-specific SQL modules with clearly defined responsibilities.
+- Reusable analytical queries across multiple dashboards.
+- Optimized aggregations for large-scale transactional datasets.
+- Business-oriented query design focused on financial analytics.
+- Dashboard-ready SQL outputs for efficient Power BI reporting.
+- Structured analytical workflow aligned with the relational database design.
+
+---
+
+## 📈 SQL Analytics Output
+
+The SQL modules transform relational data into actionable business insights that power the interactive Power BI dashboards.
+
+Major analytical outputs include:
+
+- Transaction volume and value analysis.
+- Customer performance metrics.
+- Bank performance evaluation.
+- Payment method and currency analysis.
+- Network connectivity analysis.
+- Anti-Money Laundering (AML) reporting.
+- Executive-level KPI aggregations.
+- Dashboard-ready datasets for visualization.
+
+# 📊 Power BI Data Model
+
+The Banking Fraud & Financial Risk Intelligence Platform uses **Power BI** as the business intelligence and visualization layer. After the engineered datasets are loaded into MySQL and analyzed using SQL, the processed data is imported into Power BI, where a relational data model is created to support interactive reporting, cross-filtering, and executive-level analytics.
+
+The Power BI data model integrates transactional, customer, account, bank, and network information into a unified analytical environment that powers eight interactive dashboards.
+
+---
+
+## 🏗️ Power BI Data Model Architecture
+
+```text
+MySQL Database
+       │
+       ▼
+SQL Analytics
+       │
+       ▼
+Power BI Data Import
+       │
+       ▼
+Relationship Modeling
+       │
+       ▼
+DAX Measures & Calculated Columns
+       │
+       ▼
+Interactive Visualizations
+       │
+       ▼
+Executive Dashboards
+```
+
+---
+
+## 🔗 Data Model Components
+
+The Power BI model combines multiple datasets into a single analytical model that supports cross-filtering and business intelligence reporting.
+
+| Component | Purpose |
+|-----------|---------|
+| **Analytical Dataset** | Primary reporting dataset used across all dashboards. |
+| **Customer Data** | Supports customer intelligence and behavioral analysis. |
+| **Account Data** | Enables account-level performance and activity reporting. |
+| **Bank Data** | Provides bank-level transaction and risk analysis. |
+| **Transaction Data** | Powers transaction analytics and financial reporting. |
+| **Network Features** | Supports relationship analysis and account connectivity insights. |
+
+---
+
+## 📐 Data Modeling Approach
+
+The Power BI semantic model was designed using the following principles:
+
+- Logical relationships between analytical datasets.
+- Optimized data model for interactive dashboard performance.
+- Consistent filtering across all report pages.
+- Centralized business calculations using DAX.
+- Efficient aggregation of large-scale transactional data.
+- Reusable measures shared across multiple dashboards.
+
+---
+
+## 🧮 DAX Implementation
+
+DAX (Data Analysis Expressions) is used throughout the project to create reusable business calculations and interactive KPIs.
+
+Examples include:
+
+- Total Transactions
+- Total Customers
+- Total Accounts
+- Total Banks
+- Total Transaction Amount
+- Average Transaction Amount
+- Laundering Transactions
+- Laundering Rate (%)
+- High-Risk Accounts
+- Suspicious Accounts
+- Laundered Amount
+- Average Fraud Amount
+- Average Transactions per Customer
+- Average Transactions per Bank
+- Transaction Flow Distribution
+- Executive Risk Score
+
+---
+
+## 🎛️ Interactive Features
+
+The Power BI dashboards incorporate several interactive capabilities to improve analytical exploration.
+
+- Cross-filtering between visuals.
+- Interactive slicers.
+- Dynamic KPI cards.
+- Drill-through navigation.
+- Conditional formatting.
+- Search-enabled filters.
+- Responsive visual interactions.
+- Multi-page analytical reporting.
+
+---
+
+## 📈 Data Model Benefits
+
+The Power BI semantic model provides a scalable foundation for financial reporting and executive decision-making.
+
+Key benefits include:
+
+- Fast analytical performance across millions of transactions.
+- Consistent business metrics across all dashboards.
+- Simplified dashboard development through reusable measures.
+- Interactive exploration of customer, account, bank, transaction, and network data.
+- Executive-ready reporting with centralized business logic.
+- Flexible analytical model supporting multiple reporting perspectives.
+
