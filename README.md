@@ -488,3 +488,128 @@ SCRIPTS
 │   └── 09_derive_network_features.py
 └── ANALYTICS
     └── 10_build_analytical_dataset.py
+
+# 🗄️ Database Design
+
+The Banking Fraud & Financial Risk Intelligence Platform utilizes a **MySQL relational database** as the central storage layer between the Python ETL pipeline and the Power BI reporting environment. After data cleaning and feature engineering, the processed datasets are loaded into MySQL, where they are organized into structured relational tables for efficient querying, analysis, and dashboard integration.
+
+The database serves as the analytical backbone of the platform by enabling SQL-based exploration, business reporting, feature aggregation, and dashboard-ready data retrieval.
+
+---
+
+## 🏛️ Database Architecture
+
+```text
+Python ETL Pipeline
+         │
+         ▼
+ Cleaned Datasets
+         │
+         ▼
+ Feature Engineering
+         │
+         ▼
+ Analytical Dataset
+         │
+         ▼
+ MySQL Database
+         │
+         ▼
+ SQL Analysis
+         │
+         ▼
+ Power BI
+```
+
+---
+
+## 📂 Database Tables
+
+The database is organized into multiple logical tables representing banking entities, transactions, engineered features, and analytical datasets.
+
+| Table | Description |
+|--------|-------------|
+| **accounts** | Stores cleaned customer account information and bank mappings. |
+| **banks** | Contains bank identifiers and bank-related reference information. |
+| **customers** | Stores customer-level information derived from account mappings. |
+| **transactions** | Contains cleaned banking transaction records used for financial analysis. |
+| **aml_patterns** | Stores Anti-Money Laundering (AML) pattern definitions. |
+| **aml_pattern_transactions** | Maps transactions to identified AML patterns. |
+| **transaction_features** | Stores engineered transaction-level analytical features. |
+| **account_features** | Stores engineered account-level metrics and behavioral features. |
+| **customer_features** | Stores customer-level analytical and behavioral features. |
+| **network_features** | Stores network connectivity and relationship metrics between accounts. |
+| **analytical_dataset** | Consolidated reporting dataset optimized for SQL analytics and Power BI dashboards. |
+
+---
+
+## 🔗 Database Relationships
+
+The relational database is designed around interconnected banking entities.
+
+| Parent Table | Related Table | Relationship |
+|--------------|---------------|--------------|
+| **customers** | **accounts** | One customer can own multiple accounts. |
+| **banks** | **accounts** | One bank manages multiple accounts. |
+| **accounts** | **transactions** | Accounts participate as sender and receiver in transactions. |
+| **transactions** | **transaction_features** | One-to-one relationship through Transaction ID. |
+| **accounts** | **account_features** | One-to-one relationship through Account ID. |
+| **customers** | **customer_features** | One-to-one relationship through Customer ID. |
+| **accounts** | **network_features** | Derived relationship based on account connectivity. |
+| **transactions** | **aml_pattern_transactions** | Transactions mapped to AML pattern records. |
+
+---
+
+## 🔑 Primary Keys
+
+| Table | Primary Key |
+|--------|-------------|
+| accounts | Account ID |
+| customers | Customer ID |
+| banks | Bank ID |
+| transactions | Transaction ID |
+| aml_patterns | Pattern ID |
+| aml_pattern_transactions | Pattern Transaction ID |
+| transaction_features | Transaction ID |
+| account_features | Account ID |
+| customer_features | Customer ID |
+| network_features | Account ID |
+| analytical_dataset | Transaction ID |
+
+---
+
+## ⚡ Database Design Highlights
+
+- Normalized relational database structure.
+- Separate storage for raw entities and engineered analytical features.
+- Optimized for SQL-based analytical querying.
+- Supports customer, account, bank, transaction, and network analysis.
+- Provides dashboard-ready datasets for Power BI.
+- Designed to integrate seamlessly with the modular Python ETL pipeline.
+
+---
+
+## 🔄 Data Flow into the Database
+
+```text
+Raw Dataset
+      │
+      ▼
+Python ETL
+      │
+      ▼
+Cleaned Tables
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+MySQL Database
+      │
+      ▼
+SQL Analytics
+      │
+      ▼
+Power BI Dashboards
+```
+
