@@ -1788,7 +1788,7 @@ Ensure the following software is installed before running the project.
 Clone the project from GitHub.
 
 ```bash
-git clone https://github.com/<your-username>/Banking-Fraud-Financial-Risk-Intelligence-Platform.git
+git clone https://github.com/Noelchannayil/Banking-Fraud-Financial-Risk-Intelligence-Platform.git
 
 cd Banking-Fraud-Financial-Risk-Intelligence-Platform
 ```
@@ -1998,4 +1998,36 @@ After completing the above steps, you will have access to:
 - ✅ Interactive Power BI Dashboards
 - ✅ AML & Fraud Intelligence Reports
 - ✅ Executive Risk Intelligence Platform
+
+---
+
+## 📦 Project Outputs
+
+Running the complete pipeline generates the following outputs:
+
+| Output | Description |
+|---------|-------------|
+| **Cleaned Datasets** | Standardized datasets generated after data cleaning and validation. |
+| **Feature Datasets** | Transaction, customer, account, and network analytical features. |
+| **Analytical Dataset** | Consolidated dataset used for SQL analytics and Power BI reporting. |
+| **MySQL Database** | Structured relational database containing processed banking data. |
+| **Power BI Dashboards** | Eight interactive dashboards for fraud analytics and executive reporting. |
+| **Validation Reports** | Automated audit and data quality validation reports generated during ETL execution. |
+
+---
+
+## 🎉 Congratulations!
+
+You have successfully set up the **Banking Fraud & Financial Risk Intelligence Platform**.
+
+You can now explore:
+
+- 📊 Interactive Power BI Dashboards
+- 🗄️ MySQL Analytical Database
+- 🐍 Modular Python ETL Pipeline
+- 📈 SQL Analytics
+- 🏦 Banking Performance Intelligence
+- 🔍 Fraud & AML Monitoring
+- 🌐 Network Relationship Analysis
+- 📋 Executive Risk Intelligence Reports
 
