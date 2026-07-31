@@ -57,6 +57,7 @@ The project follows a modular Python-based ETL architecture, stores processed da
 - [👨‍💻 Author](#-author)
 - [📄 License](#-license)
 
+---
 
 ## 🚀 Key Highlights
 
@@ -2517,3 +2518,7 @@ For the complete license text, please refer to the **LICENSE** file included in 
 ---
 
 © 2026 Noel Channayil. All rights reserved.
+
+<p align="right">
+  <a href="#-banking-fraud--financial-risk-intelligence-platform">⬆️ Back to Top</a>
+</p>
