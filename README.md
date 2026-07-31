@@ -2403,3 +2403,50 @@ The long-term objective is to evolve this platform into a complete enterprise-gr
 - Graph-Based Network Analytics
 - Web-Based Reporting Portal
 
+# 👨‍💻 Author
+
+## Noel Channayil
+
+**Banking Fraud & Financial Risk Intelligence Platform** was designed and developed as an end-to-end **Data Engineering, SQL Analytics and Business Intelligence** project to demonstrate practical skills in financial analytics, Anti-Money Laundering (AML) reporting and executive dashboard development.
+
+The project showcases expertise in:
+
+- 🐍 Python ETL Development
+- 🗄️ MySQL Database Design
+- 📊 SQL Analytics
+- 📈 Power BI Dashboard Development
+- 📐 DAX Measures & Business Calculations
+- ⚙️ Data Engineering
+- 🏦 Banking & Financial Analytics
+- 🚨 Anti-Money Laundering (AML) Intelligence
+- 📉 Fraud Analytics
+- 📋 Executive Business Intelligence
+
+---
+
+## 📫 Connect With Me
+
+<p align="left">
+
+<a href="[https://github.com/your-github-username](https://github.com/Noelchannayil)">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="[https://linkedin.com/in/your-linkedin-profile](https://www.linkedin.com/in/noel-channayil-9b42b5279/)">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:noelchannayil@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
+## 🙏 Acknowledgements
+
+- IBM for developing the **HI-Small Anti-Money Laundering (AML) Dataset**
+- Kaggle for providing public access to the dataset
+- Microsoft Power BI for interactive business intelligence and visualization
+- The open-source Python ecosystem, including Pandas and NumPy, for enabling scalable data processing
