@@ -2449,5 +2449,21 @@ The project showcases expertise in:
 - IBM for developing the **HI-Small Anti-Money Laundering (AML) Dataset**
 - Kaggle for providing public access to the dataset
 - Microsoft Power BI for interactive business intelligence and visualization
-- The open-source Python ecosystem, including Pandas and NumPy, for enabling scalable data processing
+- The open-source Python ecosystem, including Pandas and NumPy for enabling scalable data processing
 
+# 📄 License
+
+This project is licensed under the **MIT License**, which permits anyone to use, modify, and distribute this software for personal or commercial purposes, provided that the original copyright notice and license are included.
+
+You are free to:
+
+- ✅ Use the project for learning and educational purposes.
+- ✅ Modify and extend the source code.
+- ✅ Share and distribute the project.
+- ✅ Build upon the project with proper attribution.
+
+For the complete license text, please refer to the **LICENSE** file included in this repository.
+
+---
+
+© 2026 Noel Channayil. All rights reserved.
