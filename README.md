@@ -17,6 +17,12 @@ The project follows a modular Python-based ETL architecture, stores processed da
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
+
+![License](https://img.shields.io/github/license/Noelchannayil/Banking-Fraud-Financial-Risk-Intelligence-Platform)
+![Last Commit](https://img.shields.io/github/last-commit/Noelchannayil/Banking-Fraud-Financial-Risk-Intelligence-Platform)
+![Repo Size](https://img.shields.io/github/repo-size/Noelchannayil/Banking-Fraud-Financial-Risk-Intelligence-Platform)
+![Top Language](https://img.shields.io/github/languages/top/Noelchannayil/Banking-Fraud-Financial-Risk-Intelligence-Platform)
+
 ---
 
 ## 🚀 Key Highlights
@@ -28,11 +34,6 @@ The project follows a modular Python-based ETL architecture, stores processed da
 - Developed SQL modules for transaction, customer, bank and network analysis.
 - Built **8 interactive Power BI dashboards** with drill-through capabilities for executive reporting and fraud investigation.
 - Created DAX measures, KPIs, and interactive visualizations to monitor AML activity, transaction behavior, customer intelligence, banking performance and financial risk indicators.
-
-![License](https://img.shields.io/github/license/Noelchannayil/Banking-Fraud-Financial-Risk-Intelligence-Platform)
-![Last Commit](https://img.shields.io/github/last-commit/Noelchannayil/Banking-Fraud-Financial-Risk-Intelligence-Platform)
-![Repo Size](https://img.shields.io/github/repo-size/Noelchannayil/Banking-Fraud-Financial-Risk-Intelligence-Platform)
-![Top Language](https://img.shields.io/github/languages/top/Noelchannayil/Banking-Fraud-Financial-Risk-Intelligence-Platform)
 
 # 📊 Dashboard Preview
 
