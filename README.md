@@ -50,6 +50,8 @@ The project follows a modular Python-based ETL architecture, stores processed da
 - [👨‍💻 Author](#-author)
 - [📄 License](#-license)
 
+---
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
@@ -66,6 +68,7 @@ The project follows a modular Python-based ETL architecture, stores processed da
 ![Last Commit](https://img.shields.io/github/last-commit/Noelchannayil/Banking-Fraud-Financial-Risk-Intelligence-Platform)
 ![Repo Size](https://img.shields.io/github/repo-size/Noelchannayil/Banking-Fraud-Financial-Risk-Intelligence-Platform)
 ![Top Language](https://img.shields.io/github/languages/top/Noelchannayil/Banking-Fraud-Financial-Risk-Intelligence-Platform)
+
 ---
 
 # 📊 Dashboard Preview
