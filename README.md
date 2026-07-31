@@ -2296,3 +2296,110 @@ By integrating data engineering, feature engineering, relational database design
 - Financial network exploration
 - Executive-level risk reporting
 - Data-driven business decision-making
+
+# 🚀 Future Enhancements
+
+The current implementation focuses on building a scalable Financial Data Engineering and Business Intelligence platform. Several enhancements can further extend its analytical capabilities and enterprise readiness.
+
+---
+
+## 🔮 Planned Enhancements
+
+### 🤖 Machine Learning–Based Fraud Detection
+
+- Integrate supervised machine learning models for fraud prediction.
+- Develop transaction risk scoring using historical behavioral patterns.
+- Classify suspicious transactions based on engineered analytical features.
+
+---
+
+### ⚡ Real-Time Transaction Processing
+
+- Process streaming banking transactions in real time.
+- Replace batch ETL with event-driven data ingestion.
+- Enable near real-time fraud monitoring and alert generation.
+
+---
+
+### ☁️ Cloud Deployment
+
+- Deploy the platform using cloud-native services.
+- Store analytical datasets in cloud-based databases.
+- Enable secure dashboard access through cloud-hosted Power BI services.
+
+---
+
+### 🔔 Automated Alerting
+
+- Generate automatic alerts when predefined risk thresholds are exceeded.
+- Notify investigators about high-risk accounts or suspicious banking activity.
+- Support configurable AML monitoring rules.
+
+---
+
+### 🌐 Advanced Network Analytics
+
+- Visualize transaction relationships using interactive graph networks.
+- Identify hidden transaction communities and relationship clusters.
+- Improve investigation of complex financial transaction chains.
+
+---
+
+### 📱 Executive Reporting Portal
+
+- Build a web-based executive reporting portal.
+- Enable browser-based access to KPIs and dashboards.
+- Provide responsive reporting for desktop, tablet and mobile devices.
+
+---
+
+### 🔐 Enhanced Security
+
+- Implement role-based access control (RBAC).
+- Secure sensitive financial information through encryption.
+- Add audit logging and user activity monitoring.
+
+---
+
+### 📊 Advanced Business Intelligence
+
+- Predictive trend analysis
+- Interactive forecasting dashboards
+- What-if scenario analysis
+- Executive scorecards
+- Automated PDF report generation
+
+---
+
+## 🎯 Long-Term Vision
+
+The long-term objective is to evolve this platform into a complete enterprise-grade Financial Risk Intelligence solution capable of supporting:
+
+- Anti-Money Laundering (AML) compliance
+- Fraud detection and investigation
+- Executive decision support
+- Enterprise banking analytics
+- Real-time financial monitoring
+- Predictive risk intelligence
+- Cloud-native business intelligence
+
+## 💡 Project Roadmap
+
+### Current Version (v1.0)
+
+- Python ETL Pipeline
+- Feature Engineering
+- MySQL Database
+- SQL Analytics
+- Power BI Dashboards
+- Executive Risk Reporting
+
+### Planned Version (v2.0)
+
+- Machine Learning Fraud Detection
+- Real-Time Streaming Analytics
+- Cloud Deployment
+- Automated Alerting
+- Graph-Based Network Analytics
+- Web-Based Reporting Portal
+
