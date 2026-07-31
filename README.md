@@ -6,6 +6,16 @@ Built using the **IBM Anti-Money Laundering (AML) HI-Small dataset**, the platfo
 
 The project follows a modular Python-based ETL architecture, stores processed data in a MySQL database and delivers executive-level business intelligence through eight interactive Power BI dashboards. The platform emphasizes robust data engineering, feature engineering, SQL analytics and interactive business intelligence to support fraud investigation and strategic decision-making.
 
+## 🚀 Key Highlights
+
+- Built an end-to-end ETL pipeline using Python for auditing, cleaning, validation, transformation and feature engineering.
+- Processed approximately **5.08 million** banking transactions from the IBM HI-Small AML dataset.
+- Engineered transaction, account, customer and network-level analytical features for fraud and financial risk analysis.
+- Designed and managed a relational MySQL database for structured storage and analytical querying.
+- Developed SQL modules for transaction, customer, bank and network analysis.
+- Built **8 interactive Power BI dashboards** with drill-through capabilities for executive reporting and fraud investigation.
+- Created DAX measures, KPIs, and interactive visualizations to monitor AML activity, transaction behavior, customer intelligence, banking performance and financial risk indicators.
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
@@ -58,16 +68,6 @@ The project follows a modular Python-based ETL architecture, stores processed da
 - [📄 License](#-license)
 
 ---
-
-## 🚀 Key Highlights
-
-- Built an end-to-end ETL pipeline using Python for auditing, cleaning, validation, transformation and feature engineering.
-- Processed approximately **5.08 million** banking transactions from the IBM HI-Small AML dataset.
-- Engineered transaction, account, customer and network-level analytical features for fraud and financial risk analysis.
-- Designed and managed a relational MySQL database for structured storage and analytical querying.
-- Developed SQL modules for transaction, customer, bank and network analysis.
-- Built **8 interactive Power BI dashboards** with drill-through capabilities for executive reporting and fraud investigation.
-- Created DAX measures, KPIs, and interactive visualizations to monitor AML activity, transaction behavior, customer intelligence, banking performance and financial risk indicators.
 
 # 📊 Dashboard Preview
 
