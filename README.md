@@ -1761,3 +1761,241 @@ Banking-Fraud-Financial-Risk-Intelligence-Platform/
 - **reports/** contains automated data quality validation and audit reports generated during ETL execution.
 - **docs/** contains architecture diagrams, workflow illustrations, and supporting project documentation.
 - **README.md** provides comprehensive project documentation, setup instructions, dashboard explanations, and business insights.
+
+# 🚀 Installation Guide
+
+Follow the steps below to set up and run the **Banking Fraud & Financial Risk Intelligence Platform** on your local machine.
+
+---
+
+## 📋 Prerequisites
+
+Ensure the following software is installed before running the project.
+
+| Software | Version (Recommended) |
+|-----------|----------------------:|
+| Python | 3.10+ |
+| MySQL Community Server | 8.0+ |
+| MySQL Workbench | Latest |
+| Visual Studio Code | Latest |
+| Power BI Desktop | Latest |
+| Git | Latest |
+
+---
+
+## 1️⃣ Clone the Repository
+
+Clone the project from GitHub.
+
+```bash
+git clone https://github.com/<your-username>/Banking-Fraud-Financial-Risk-Intelligence-Platform.git
+
+cd Banking-Fraud-Financial-Risk-Intelligence-Platform
+```
+
+---
+
+## 2️⃣ Create a Python Virtual Environment (Optional)
+
+It is recommended to use a virtual environment for dependency management.
+
+### Windows
+
+```bash
+python -m venv venv
+
+venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
+python3 -m venv venv
+
+source venv/bin/activate
+```
+
+---
+
+## 3️⃣ Install Required Python Packages
+
+Install all project dependencies.
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4️⃣ Configure the MySQL Database
+
+1. Install **MySQL Community Server**.
+2. Open **MySQL Workbench**.
+3. Create a new database.
+
+Example:
+
+```sql
+CREATE DATABASE banking_fraud_db;
+USE banking_fraud_db;
+```
+
+---
+
+## 5️⃣ Run the Python ETL Pipeline
+
+Execute the ETL scripts in the following order:
+
+```text
+01_raw_data_audit.py
+
+↓
+
+02_clean_accounts.py
+
+↓
+
+03_clean_transactions.py
+
+↓
+
+04_clean_patterns.py
+
+↓
+
+05_validate_cleaned_data.py
+
+↓
+
+06_derive_transaction_features.py
+
+↓
+
+07_derive_account_features.py
+
+↓
+
+08_derive_customer_features.py
+
+↓
+
+09_derive_network_features.py
+
+↓
+
+10_build_analytical_dataset.py
+```
+
+The pipeline will generate:
+
+- Cleaned datasets
+- Engineered features
+- Analytical dataset
+- Validation reports
+
+---
+
+## 6️⃣ Execute SQL Scripts
+
+Run the SQL scripts using **MySQL Workbench**.
+
+Recommended order:
+
+```text
+01_basic_data_exploration.sql
+
+↓
+
+02_transaction_analysis.sql
+
+↓
+
+03_customer_analysis.sql
+
+↓
+
+04_bank_analysis.sql
+
+↓
+
+05_network_analysis.sql
+
+↓
+
+06_dashboard_queries.sql
+```
+
+These scripts generate analytical queries used throughout the Power BI dashboards.
+
+---
+
+## 7️⃣ Open the Power BI Dashboard
+
+Navigate to:
+
+```text
+Power BI/
+```
+
+Open:
+
+```text
+Banking Fraud & Financial Risk Intelligence Platform.pbix
+```
+
+Power BI will automatically load the data model.
+
+---
+
+## 8️⃣ Refresh the Data Model
+
+After importing the latest datasets into MySQL:
+
+1. Open the Power BI project.
+2. Click **Refresh**.
+3. Wait for the data model to update.
+4. All eight dashboards will automatically display the latest analytical data.
+
+---
+
+## ✅ Expected Project Workflow
+
+```text
+Clone Repository
+        │
+        ▼
+Install Dependencies
+        │
+        ▼
+Run Python ETL Pipeline
+        │
+        ▼
+Load Data into MySQL
+        │
+        ▼
+Execute SQL Analytics
+        │
+        ▼
+Open Power BI Dashboard
+        │
+        ▼
+Refresh Data Model
+        │
+        ▼
+Explore Interactive Dashboards
+```
+
+---
+
+## 🎉 Project Ready
+
+After completing the above steps, you will have access to:
+
+- ✅ End-to-End Python ETL Pipeline
+- ✅ MySQL Analytical Database
+- ✅ SQL Analytics
+- ✅ Feature Engineering
+- ✅ Interactive Power BI Dashboards
+- ✅ AML & Fraud Intelligence Reports
+- ✅ Executive Risk Intelligence Platform
+
