@@ -25,6 +25,39 @@ The project follows a modular Python-based ETL architecture, stores processed da
 
 ---
 
+# 📑 Table of Contents
+
+- [📌 Project Overview](#-project-overview)
+- [📸 Dashboard Preview](#-dashboard-preview)
+- [📖 About the Project](#-about-the-project)
+- [🏦 Business Problem](#-business-problem)
+- [🎯 Project Objectives](#-project-objectives)
+- [🛠️ Technology Stack](#️-technology-stack)
+- [🏗️ Project Architecture](#️-project-architecture)
+- [📂 Dataset Overview](#-dataset-overview)
+- [🔄 ETL Pipeline](#-etl-pipeline)
+- [🗄️ Database Design](#️-database-design)
+- [⚙️ Feature Engineering](#️-feature-engineering)
+- [📊 SQL Analytics](#-sql-analytics)
+- [📈 Power BI Data Model](#-power-bi-data-model)
+- [📊 Dashboard Overview](#-dashboard-overview)
+  - [Dashboard 1 – Executive Risk Command Center](#dashboard-1--executive-risk-command-center)
+  - [Dashboard 2 – Fraud Intelligence Center](#dashboard-2--fraud-intelligence-center)
+  - [Dashboard 3 – Investigation Workspace](#dashboard-3--investigation-workspace)
+  - [Dashboard 4 – Customer & Account Intelligence](#dashboard-4--customer--account-intelligence)
+  - [Dashboard 5 – Bank Performance Intelligence](#dashboard-5--bank-performance-intelligence)
+  - [Dashboard 6 – Payment & Transaction Analytics](#dashboard-6--payment--transaction-analytics)
+  - [Dashboard 7 – Network & Relationship Analysis](#dashboard-7--network--relationship-analysis)
+  - [Dashboard 8 – Executive Risk Intelligence Dashboard](#dashboard-8--executive-risk-intelligence-dashboard)
+- [📁 Repository Structure](#-repository-structure)
+- [⚡ Installation Guide](#-installation-guide)
+- [⭐ Skills Demonstrated](#-skills-demonstrated)
+- [📊 Key Business Insights](#-key-business-insights)
+- [🚀 Future Enhancements](#-future-enhancements)
+- [👨‍💻 Author](#-author)
+- [📄 License](#-license)
+
+
 ## 🚀 Key Highlights
 
 - Built an end-to-end ETL pipeline using Python for auditing, cleaning, validation, transformation and feature engineering.
