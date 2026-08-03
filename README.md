@@ -1752,32 +1752,9 @@ USE banking_fraud_db;
 
 ## 6️⃣ Execute SQL Scripts
 
-Run the SQL scripts using **MySQL Workbench**.
-
-Recommended order:
-
-```text
-01_basic_data_exploration.sql
-
-↓
-
-02_transaction_analysis.sql
-
-↓
-
-03_customer_analysis.sql
-
-↓
-
-04_bank_analysis.sql
-
-↓
-
-05_network_analysis.sql
-
-↓
-
-06_dashboard_queries.sql
+<p align="center">
+  <img src="Architecture/Execute SQL Scripts.png" width="900">
+</p>
 ```
 
 These scripts generate analytical queries used throughout the Power BI dashboards.
