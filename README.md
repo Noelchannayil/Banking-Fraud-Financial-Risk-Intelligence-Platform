@@ -595,30 +595,9 @@ These engineered datasets improve analytical efficiency by reducing repetitive c
 
 ## ⚙️ Feature Engineering Workflow
 
-```text
-Cleaned Data
-      │
-      ▼
-Transaction Features
-      │
-      ▼
-Account Features
-      │
-      ▼
-Customer Features
-      │
-      ▼
-Network Features
-      │
-      ▼
-Analytical Dataset
-      │
-      ▼
-MySQL Database
-      │
-      ▼
-Power BI Dashboards
-```
+<p align="center">
+  <img src="Architecture/Feature Engineering Workflow.png" width="900">
+</p>
 
 ---
 
