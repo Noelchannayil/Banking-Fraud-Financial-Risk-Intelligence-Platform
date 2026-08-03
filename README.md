@@ -175,37 +175,9 @@ The platform emphasizes **data engineering, feature engineering, relational data
 
 ## 🔄 End-to-End Workflow
 
-```text
-IBM HI-Small AML Dataset
-            │
-            ▼
-      Raw Data Audit
-            │
-            ▼
- Data Cleaning & Transformation
-            │
-            ▼
-     Data Validation
-            │
-            ▼
-    Feature Engineering
-(Transaction • Account • Customer • Network)
-            │
-            ▼
-   Analytical Dataset Creation
-            │
-            ▼
-      MySQL Database
-            │
-            ▼
-       SQL Analytics
-            │
-            ▼
- Interactive Power BI Dashboards
-            │
-            ▼
- Business Insights & Executive Reporting
-```
+<p align="center">
+<img src="Architecture/End-to-End Workflow.png" width="900">
+</p>
 
 ---
 
