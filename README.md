@@ -788,27 +788,9 @@ The Power BI data model integrates transactional, customer, account, bank, and n
 
 ## 🏗️ Power BI Data Model Architecture
 
-```text
-MySQL Database
-       │
-       ▼
-SQL Analytics
-       │
-       ▼
-Power BI Data Import
-       │
-       ▼
-Semantic Data Model
-       │
-       ▼
-DAX Measures & Calculated Columns
-       │
-       ▼
-Interactive Visualizations
-       │
-       ▼
-Executive Dashboards
-```
+<p align="center">
+  <img src="Architecture/Power BI Data Model Architecture.png" width="900">
+</p>
 
 ---
 
