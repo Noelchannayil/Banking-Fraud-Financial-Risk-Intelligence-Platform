@@ -378,24 +378,10 @@ The dataset provides a realistic representation of a large-scale banking environ
 
 The raw IBM HI-Small dataset serves as the foundation of the complete analytics pipeline.
 
-```text
-IBM HI-Small AML Dataset
-            │
-            ▼
-Python ETL Pipeline
-            │
-            ▼
-Feature Engineering
-            │
-            ▼
-MySQL Database
-            │
-            ▼
-SQL Analytics
-            │
-            ▼
-Power BI Dashboards
-```
+<p align="center">
+  <img src="Architecture/Role of the Dataset in This Project.png" width="900">
+</p>
+
 
 The processed data ultimately powers **eight interactive Power BI dashboards**, providing insights into transaction behavior, Anti-Money Laundering (AML) activities, customer intelligence, bank performance, network relationships, and executive-level financial risk reporting.
 
