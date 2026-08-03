@@ -493,27 +493,10 @@ The database serves as the analytical backbone of the platform by enabling SQL-b
 
 ## 🏛️ Database Architecture
 
-```text
-Python ETL Pipeline
-         │
-         ▼
- Cleaned Datasets
-         │
-         ▼
- Feature Engineering
-         │
-         ▼
- Analytical Dataset
-         │
-         ▼
- MySQL Database
-         │
-         ▼
- SQL Analysis
-         │
-         ▼
- Power BI
-```
+<p align="center">
+  <img src="Architecture/Database Architecture.png" width="900">
+</p>
+
 
 ---
 
