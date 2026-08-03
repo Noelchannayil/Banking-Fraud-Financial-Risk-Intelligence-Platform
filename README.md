@@ -395,30 +395,9 @@ This modular architecture improves maintainability, simplifies debugging and ena
 
 ## 🔄 ETL Workflow
 
-```text
-IBM HI-Small AML Dataset
-            │
-            ▼
-01. Raw Data Audit
-            │
-            ▼
-02. Data Cleaning
-            │
-            ▼
-03. Data Validation
-            │
-            ▼
-04. Feature Engineering
-            │
-            ▼
-05. Analytical Dataset Creation
-            │
-            ▼
-MySQL Database
-            │
-            ▼
-Power BI Dashboards
-```
+<p align="center">
+  <img src="Architecture/ETL Workflow.png" width="900">
+</p>
 
 ---
 
