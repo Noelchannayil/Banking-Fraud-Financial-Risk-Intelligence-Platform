@@ -581,26 +581,9 @@ The design follows several core principles:
 
 ## 🔄 Data Flow into the Database
 
-```text
-Raw Dataset
-      │
-      ▼
-Python ETL
-      │
-      ▼
-Cleaned Tables
-      │
-      ▼
-Feature Engineering
-      │
-      ▼
-MySQL Database
-      │
-      ▼
-SQL Analytics
-      │
-      ▼
-Power BI Dashboards
+<p align="center">
+  <img src="Architecture/Data Flow into the Database.png" width="900">
+</p>
 ```
 # 🧠 Feature Engineering
 
