@@ -1744,54 +1744,9 @@ USE banking_fraud_db;
 
 ## 5️⃣ Run the Python ETL Pipeline
 
-Execute the ETL scripts in the following order:
-
-```text
-01_raw_data_audit.py
-
-↓
-
-02_clean_accounts.py
-
-↓
-
-03_clean_transactions.py
-
-↓
-
-04_clean_patterns.py
-
-↓
-
-05_validate_cleaned_data.py
-
-↓
-
-06_derive_transaction_features.py
-
-↓
-
-07_derive_account_features.py
-
-↓
-
-08_derive_customer_features.py
-
-↓
-
-09_derive_network_features.py
-
-↓
-
-10_build_analytical_dataset.py
-```
-
-The pipeline will generate:
-
-- Cleaned datasets
-- Engineered features
-- Analytical dataset
-- Validation reports
+<p align="center">
+  <img src="Architecture/Run the Python ETL Pipeline.png" width="900">
+</p>
 
 ---
 
