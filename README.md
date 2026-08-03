@@ -1792,30 +1792,9 @@ After importing the latest datasets into MySQL:
 
 ## ✅ Expected Project Workflow
 
-```text
-Clone Repository
-        │
-        ▼
-Install Dependencies
-        │
-        ▼
-Run Python ETL Pipeline
-        │
-        ▼
-Load Data into MySQL
-        │
-        ▼
-Execute SQL Analytics
-        │
-        ▼
-Open Power BI Dashboard
-        │
-        ▼
-Refresh Data Model
-        │
-        ▼
-Explore Interactive Dashboards
-```
+<p align="center">
+  <img src="Architecture/Expected Project Workflow.png" width="900">
+</p>
 
 ---
 
