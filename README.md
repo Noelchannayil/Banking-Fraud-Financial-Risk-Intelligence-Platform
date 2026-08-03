@@ -713,30 +713,9 @@ Rather than relying on a single SQL script, the project organizes analytical que
 
 ## 🔄 SQL Analytics Workflow
 
-```text
-MySQL Database
-        │
-        ▼
-Basic Data Exploration
-        │
-        ▼
-Transaction Analysis
-        │
-        ▼
-Customer Analysis
-        │
-        ▼
-Network Analysis
-        │
-        ▼
-Bank Analysis
-        │
-        ▼
-Dashboard Queries
-        │
-        ▼
-Power BI Dashboards
-```
+<p align="center">
+  <img src="Architecture/SQL Analytics Workflow.png" width="900">
+</p>
 
 ---
 
